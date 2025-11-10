@@ -1,0 +1,7 @@
+Specify the cloud tag, usually by running:
+
+    ollama run glm-4.6:cloud
+
+ollama run minimax-m2:cloud
+
+ollama run kimi-k2:cloud
