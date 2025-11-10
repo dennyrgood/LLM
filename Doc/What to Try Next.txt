@@ -1,0 +1,15 @@
+What to Try Next
+
+Since you have a strong collection of local models, including a code-focused one (qwen3-coder) and a reasoning one (deepseek-r1), here are some suggestions for other powerful or specialized models you could explore:
+
+    For State-of-the-Art (Local):
+
+        ollama run llama3:8b (or the larger llama3:70b) - The latest, top-performing open-source model family for general tasks.
+
+    For High-Performance/Efficiency:
+
+        ollama run mixtral:8x7b - A Mixture of Experts (MoE) model that provides near-70B performance at the speed of a smaller model.
+
+    For Multimodal Tasks (Image/Vision):
+
+        ollama run llava - The Large Language and Vision Assistant, allowing you to prompt the model with images.
