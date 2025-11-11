@@ -1,0 +1,255 @@
+name: My Config
+version: 0.0.1
+schema: v1
+
+models:
+  - name: Llama 3.1
+    provider: ollama
+    model: llama3.1:latest
+    apiBase: http://ollama.ldmathes.cc:11434
+    # FIX 1: Explicitly set the base URL
+    baseUrl: http://ollama.ldmathes.cc:11434
+    # FIX 2: Set as the default chat model
+    default: true
+    roles:
+      - chat
+      - edit
+    capabilities:
+      - tool_use
+    # FIX 3: Increase timeout/keepAlive for remote stability
+    requestOptions:
+      timeout: 300000 
+      keepAlive: 300000
+      
+  - name: Qwen Autocomplete
+    provider: ollama
+    # Quote model names that include a namespace/colon to avoid YAML parsing issues
+    model: "qwen2.5-coder:1.5b"
+    # Use the HTTPS base for the hosted Ollama gateway (port 443) unless you specifically
+    # run the Ollama daemon on port 11434. If you run the daemon locally on 11434, set
+    # apiBase to http://ollama.ldmathes.cc:11434 instead.
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    roles:
+      - autocomplete
+    # If the Ollama host requires an Authorization header, set it under headers below.
+    headers:
+      # Authorization: "Bearer <YOUR_TOKEN_HERE>"
+    # Increase timeout/keepAlive for remote stability
+    requestOptions:
+      timeout: 300000
+      keepAlive: 300000
+    # NOTE: Ensure the model 'qwen2.5-coder:1.5b' has been pulled to the ollama host
+    # (run `ollama pull qwen2.5-coder:1.5b` on the Ollama server) so the provider can
+    # respond to requests for it.
+
+  - name: GLM 4.6 (Cloud)
+    provider: ollama
+    model: "glm-4.6:cloud"
+    # point to the HTTPS host you provided (use default HTTPS port)
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    roles:
+      - chat
+      - edit
+    capabilities:
+      - tool_use
+    # Increase timeout for cloud model
+    requestOptions:
+      timeout: 300000
+      keepAlive: 300000
+    # If your host requires an Authorization header, add it under headers
+    # headers:
+    #   Authorization: "Bearer <YOUR_TOKEN_HERE>"
+
+  # --- Additional models imported from LLM/config-ai.yaml ---
+  - name: MiniMax M2 (Cloud)
+    provider: ollama
+    model: "minimax-m2:cloud"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    roles:
+      - chat
+    requestOptions:
+      timeout: 300000
+      keepAlive: 300000
+
+  - name: Kimi K2 (Cloud)
+    provider: ollama
+    model: "kimi-k2-thinking:cloud"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    roles:
+      - chat
+    requestOptions:
+      timeout: 300000
+      keepAlive: 300000
+
+  - name: Alfred (Falcon 40B Base)
+    provider: ollama
+    model: "alfred:latest"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    roles:
+      - chat
+      - edit
+    capabilities:
+      - tool_use
+    requestOptions:
+      timeout: 300000
+      keepAlive: 300000
+
+  - name: Notus (Mistral Fine-tune)
+    provider: ollama
+    model: "notus:latest"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    roles:
+      - chat
+    requestOptions:
+      timeout: 300000
+      keepAlive: 300000
+
+  - name: Mistral 7B
+    provider: ollama
+    model: "mistral:latest"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    roles:
+      - chat
+    requestOptions:
+      timeout: 300000
+      keepAlive: 300000
+
+  - name: DeepSeek R1 (Reasoning)
+    provider: ollama
+    model: "deepseek-r1:latest"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    roles:
+      - chat
+    requestOptions:
+      timeout: 300000
+      keepAlive: 300000
+
+  - name: Firefunction V2 (Code/Agent)
+    provider: ollama
+    model: "firefunction-v2:latest"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    roles:
+      - chat
+      - edit
+    requestOptions:
+      timeout: 300000
+      keepAlive: 300000
+
+  - name: Qwen3 Coder
+    provider: ollama
+    model: "qwen3-coder:latest"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    roles:
+      - chat
+      - edit
+    requestOptions:
+      timeout: 300000
+      keepAlive: 300000
+
+  - name: Gemma 3 (4B)
+    provider: ollama
+    model: "gemma3:4b"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    roles:
+      - chat
+    requestOptions:
+      timeout: 300000
+      keepAlive: 300000
+
+  - name: Gemma 3 (1B) T
+    provider: ollama
+    # CRITICAL FIX: The template parameter needs to force the non-chat completion structure.
+    # We will use "none" or "default" to override the complex chat template.
+    # The 'template' parameter is often model-specific; setting it to 'none' 
+    # tells Ollama to ignore its default chat prompt structure, which often contains tool/system logic.
+    template: none
+    model: "gemma3:1b"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    roles:
+      - chat
+    capabilities:
+      - chat # Keep this here for explicit instruction
+    # If the previous keepAlive/timeout options caused the 400 error (as per search results),
+    # let's revert to a simple, short keepAlive value, or remove it entirely if needed.
+    requestOptions:
+      timeout: 60000 
+      keepAlive: 60000
+
+
+  - name: Gemma 3 (1B)
+    provider: ollama
+    model: "gemma3:1b"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    roles:
+      - chat
+    template: "{{ .Prompt }}"
+    capabilities: ["chat"]
+    requestOptions:
+      timeout: 300000
+      keepAlive: 300000
+
+  - name: gpt oss 120b (cloud)
+    provider: ollama
+    model: "gpt-oss:120b-cloud"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    roles:
+      - chat
+    requestOptions:
+      timeout: 300000
+      keepAlive: 300000
+
+  - name: Deepseek V3.1 (671b-cloud)
+    provider: ollama
+    model: "deepseek-v3.1:671b-cloud"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    roles:
+      - chat
+    requestOptions:
+      timeout: 300000
+      keepAlive: 300000
+
+  - name: Llava (13b)
+    provider: ollama
+    model: "llava:13b"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    roles:
+      - chat
+    requestOptions:
+      timeout: 300000
+      keepAlive: 300000
+
+  - name: Qwen3 Coder (480b-cloud)
+    provider: ollama
+    model: "qwen3-coder:480b-cloud"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    roles:
+      - chat
+      - edit
+    requestOptions:
+      timeout: 300000
+      keepAlive: 300000
+
+context:
+  - provider: file
+  - provider: code
+  - provider: diff
+
+rules:
+  - Give concise responses
