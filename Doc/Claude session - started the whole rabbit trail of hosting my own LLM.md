@@ -1,5 +1,7 @@
 Claude session - started the whole rabbit trail of hosting my own llm
 
+
+
 - was an offshoot of a conversation about automagically creating GIT commit messages for my sync shell scripts
 
 
