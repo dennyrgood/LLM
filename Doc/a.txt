@@ -1,0 +1,14 @@
+﻿ollama show qwen2.5:7b
+ollama show phi3:mini
+ollama show qwen2.5-coder:1.5b
+ollama show gpt-oss:120b-cloud
+ollama show qwen3-coder:480b-cloud
+ollama show deepseek-v3.1:671b-cloud
+ollama show llava:13b
+ollama show kimi-k2-thinking:cloud
+ollama show minimax-m2:cloud
+ollama show glm-4.6:cloud
+ollama show deepseek-r1:latest
+ollama show qwen3-coder:latest
+ollama show mistral:latest
+ollama show gemma3:4b
