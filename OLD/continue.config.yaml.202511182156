@@ -1,0 +1,146 @@
+name: My Config
+version: 0.0.5
+schema: v1
+
+models:
+  - name: Qwen2.5 Coder (Default - 986mb 10s 4s)
+    provider: ollama
+    model: "qwen2.5-coder:1.5b"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    contextLength: 32768
+    default: true
+    roles:
+      - chat
+      - edit
+    capabilities:
+      - tool_use
+    requestOptions:
+      timeout: 600000
+      keepAlive: 600000
+
+  - name: Qwen3 Coder (too large - keep non-default 15m to)
+    provider: ollama
+    model: "qwen3-coder:latest"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    contextLength: 32768
+    roles:
+      - chat
+      - edit
+    capabilities:
+      - tool_use
+    requestOptions:
+      timeout: 900000
+      keepAlive: 900000
+
+  - name: Phi3 (128K Context - no tools)
+    provider: ollama
+    model: "phi3:mini"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    contextLength: 131072
+    default: false
+    roles:
+      - chat
+    requestOptions:
+      timeout: 600000
+      keepAlive: 600000
+
+  - name: Qwen2.5 7B (Local - tool-capable 4.7g 55s 2s 8s)
+    provider: ollama
+    model: "qwen2.5:7b"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    contextLength: 32768
+    roles:
+      - chat
+    capabilities:
+      - tool_use
+    requestOptions:
+      timeout: 600000
+      keepAlive: 600000
+
+  - name: DeepSeek R1 (Local - no tool support)
+    provider: ollama
+    model: "deepseek-r1:latest"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    contextLength: 8192
+    roles:
+      - chat
+    requestOptions:
+      timeout: 600000
+      keepAlive: 600000
+
+  - name: Mistral 7B (Local - tool-capable 4.4g 142s 23s)
+    provider: ollama
+    model: "mistral:latest"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    contextLength: 32768
+    roles:
+      - chat
+    capabilities:
+      - tool_use
+    requestOptions:
+      timeout: 600000
+      keepAlive: 600000
+
+  - name: Gemma3 4B (Local - no tools listed)
+    provider: ollama
+    model: "gemma3:4b"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    contextLength: 8192
+    roles:
+      - chat
+    requestOptions:
+      timeout: 600000
+      keepAlive: 600000
+
+  # Cloud (emergency only)
+  - name: Kimi K2 (Cloud)
+    provider: ollama
+    model: "kimi-k2-thinking:cloud"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    roles:
+      - chat
+    requestOptions:
+      timeout: 600000
+      keepAlive: 600000
+
+  - name: Qwen3 Coder (Cloud)
+    provider: ollama
+    model: "qwen3-coder:480b-cloud"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    roles:
+      - chat
+      - edit
+    requestOptions:
+      timeout: 600000
+      keepAlive: 600000
+
+  - name: DeepSeek V3.1 (Cloud)
+    provider: ollama
+    model: "deepseek-v3.1:671b-cloud"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    roles:
+      - chat
+    requestOptions:
+      timeout: 600000
+      keepAlive: 600000
+
+  - name: GPT-OSS (Cloud)
+    provider: ollama
+    model: "gpt-oss:120b-cloud"
+    apiBase: https://ollama.ldmathes.cc
+    baseUrl: https://ollama.ldmathes.cc
+    roles:
+      - chat
+    requestOptions:
+      timeout: 600000
+      keepAlive: 600000
