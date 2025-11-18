@@ -1,0 +1,77 @@
+# Using 1040 until the 3060 Gets Here
+
+## Immediate (while you’re on the 1040 / CPU)
+
+### Qwen2.5 Coder — `qwen2.5-coder:1.5b` (DEFAULT for Continue)
+- Best for: tool workflows, editor integration, fast coding completions.  
+- Capabilities: tools, insert, completion.  
+- Size / perf: ~986 MB; very fast to start and respond on CPU (seconds).  
+- Config: keep as Continue default with `requestOptions.timeout = 600000`.  
+- Test: `ollama run qwen2.5-coder:1.5b`
+
+### Phi3 — `phi3:mini`
+- Best for: very large-context chat, document summarization, long conversations.  
+- Capabilities: completion only (no tool_use).  
+- Context: 131,072 tokens (128K).  
+- Perf: best practical CPU choice for long context; ~3–6 tok/s.  
+- Use when you need long context but not tools.  
+- Test: `ollama run phi3:mini`
+
+### Qwen2.5 7B — `qwen2.5:7b`
+- Best for: general-purpose chat when you want better quality than small models.  
+- Capabilities: tools supported.  
+- Size / perf: ~4.7 GB on disk; slower on CPU (tens of seconds to start, then a few tok/s).  
+- Use when you can tolerate slower responses for better results.  
+- Test: `ollama run qwen2.5:7b`
+
+### Mistral / DeepSeek R1 / Gemma3 4B
+- Best for: backups / specialty tasks (reasoning, alternative outputs, light vision for gemma3).  
+- Capabilities: mistral and qwen variants support tools; `deepseek-r1` shows "thinking" (reasoning) but not tools.  
+- Perf: 7B/8B models are slow on CPU — expect long load & low tok/s; increase timeouts.  
+- Test: `ollama run mistral:latest` / `ollama run deepseek-r1:latest`
+
+### Llava 13B / `qwen3-coder:latest` (local)
+- Best for: vision or highest local quality, but too slow/large for current hardware.  
+- Action: keep installed if you want to keep them for later, but don’t use interactively now (very long load time; may swap).  
+- Test only when ready to wait: `ollama run qwen3-coder:latest` (expect minutes).
+
+## Cloud / Emergency-only models (use sparingly)
+- `gpt-oss:120b-cloud`, `kimi-k2-thinking:cloud`, `deepseek-v3.1:671b-cloud`, `qwen3-coder:480b-cloud`, `minimax-m2:cloud`, `glm-4.6:cloud`  
+  - Best for: one-off heavy tasks when local models don’t suffice and you accept quota/latency/cost.  
+  - Use only for emergencies or special QA runs.
+
+## Practical config tips (what to set now)
+- Default: `qwen2.5-coder:1.5b` (tool_use enabled).  
+- Keep `phi3:mini` in the config for long-context chat (no tool_use).  
+- Increase `requestOptions.timeout` for heavy local models to `600000–900000` ms (10–15 min) so Continue won’t abort while they load on CPU.  
+- Leave `qwen3-coder:latest` non-default with a long timeout until the 3060 or a quantized/offload variant is available.
+
+## Quick commands to verify / test
+- List models: `ollama ls`  
+- Show model details: `ollama show <model>`  
+- Run a quick test locally on the server: `ollama run <model>`  
+  - Examples:  
+    - `ollama run qwen2.5-coder:1.5b`  
+    - `ollama run phi3:mini`  
+    - `ollama run qwen2.5:7b`  
+- From your Mac with Continue:  
+  - `cn` (verify agent shows Qwen2.5 Coder)  
+  - Ask a short tool-enabled prompt and a long-context prompt to verify both workflows.
+
+## When the RTX 3060 arrives (what to change)
+- Primary GPU defaults: add/enable `qwen2.5-coder:14b` or other 14B models (if they fit) and move heavy models like `qwen3-coder` to default for heavy coding tasks.  
+- Preferred immediate pulls: `qwen2.5-coder:7b` (fast), `qwen2.5-coder:14b` and `deepseek-coder-v2:16b` only if verified to fit/quantized.  
+- Test with: `nvidia-smi` while running `ollama run <gpu-model>` to confirm GPU usage.
+
+## One-line reminder
+- For tool workflows now: `qwen2.5-coder:1.5b`  
+- For long documents now: `phi3:mini`  
+- For higher-quality but slower local work: `qwen2.5:7b` / `mistral`  
+- Reserve `qwen3` / `llava` / huge models until the 3060 or quantized builds.
+
+---
+
+If you want, when you get the 3060 I can:
+- Give an exact list of models to pull first (prioritized by VRAM fit),  
+- Provide the exact edits to flip Continue’s default to a GPU model, and  
+- Walk you through verifying GPU inference with `nvidia-smi` and a small test suite.
