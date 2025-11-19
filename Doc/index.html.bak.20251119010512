@@ -116,7 +116,7 @@
               </div>
             </li>
 
-            <li class="file" data-path="./Using 1040 until 3060 Gets Here" data-pdf="./Using 1040 until 3060 Gets Here">
+            <li class="file" data-path="./Using 1040 until 3060 Gets Here.txt" data-pdf="./Using 1040 until 3060 Gets Here.txt">
               <div class="meta">
                 <div class="title"><a href="#" class="file-link">Using 1040 until 3060 Gets Here</a></div>
                 <div class="desc">Tactical guidance and default model choices while on CPU / GTX 1040, with suggested timeouts and quick model picks.</div>
@@ -132,13 +132,13 @@
               </div>
             </li>
 
-            <li class="file" data-path="./Prep for 3060 - in the mean time as well.docx" data-pdf="./Prep for 3060 - in the mean time as well.docx">
-              <div class="meta">
-                <div class="title"><a href="#" class="file-link">Prep for 3060 - in the mean time as well.docx</a></div>
-                <div class="desc">DOCX guide and checklist with preparatory notes — treat as a guide; convert to MD if you want it searchable.</div>
-                <div class="tags small-muted">DOCX · Guides</div>
-              </div>
-            </li>
+<li class="file" data-path="./Prep for 3060 - in the mean time as well.txt" data-pdf="">
+  <div class="meta">
+    <div class="title"><a href="#" class="file-link">Prep for 3060 - in the mean time as well</a></div>
+    <div class="desc">Preparation checklist and setup notes saved as plain text (converted from DOCX). Treat as a Guide; convert to MD for full searchability.</div>
+    <div class="tags small-muted">TXT · Guides</div>
+  </div>
+</li>
 
             <li class="file" data-path="./md_outputs/RTX 3060 Setup Guide - Complete AI Coding Workflow.md" data-pdf="./RTX 3060 Setup Guide - Complete AI Coding Workflow.pdf">
               <div class="meta">
@@ -172,7 +172,33 @@
               </div>
             </li>
 
-          </ul>
+          
+            <li class="file" data-path="./Image Generation Options for Open WebUI.pdf" data-pdf="./Image Generation Options for Open WebUI.pdf">
+              <div class="meta">
+                <div class="title"><a href="#" class="file-link">Image Generation Options for Open WebUI</a></div>
+                <div class="desc">image gen</div>
+                <div class="tags small-muted">PDF · Guides (setup, long-form)</div>
+              </div>
+            </li>
+<li class="file" data-path="./md_outputs/Image Generation Options for Open WebUI.md" data-pdf="./Image Generation Options for Open WebUI.pdf">
+              <div class="meta">
+                <div class="title"><a href="#" class="file-link">Image Generation Options for Open WebUI</a></div>
+                <div class="desc"></div>
+                <div class="tags small-muted">MD · Guides (setup, long-form)</div>
+              </div>
+            </li><li class="file" data-path="./Rtx3060 Supplemental Improvements.pdf" data-pdf="./Rtx3060 Supplemental Improvements.pdf">
+              <div class="meta">
+                <div class="title"><a href="#" class="file-link">Rtx3060 Supplemental Improvements</a></div>
+                <div class="desc"></div>
+                <div class="tags small-muted">PDF · Guides (setup, long-form)</div>
+              </div>
+            </li><li class="file" data-path="./md_outputs/LLM Recommendations for Programming and Development.md" data-pdf="./LLM Recommendations for Programming and Development.pdf">
+              <div class="meta">
+                <div class="title"><a href="#" class="file-link">LLM Recommendations for Programming and Development</a></div>
+                <div class="desc"></div>
+                <div class="tags small-muted">MD · Guides (setup, long-form)</div>
+              </div>
+            </li></ul>
         </section>
 
         <!-- Quick refs -->
@@ -211,14 +237,46 @@
               </div>
             </li>
 
-          </ul>
+          
+            <li class="file" data-path="./Doc_INDEX_Version6.md" data-pdf="">
+              <div class="meta">
+                <div class="title"><a href="#" class="file-link">Doc_INDEX_Version6</a></div>
+                <div class="desc">Curated toc</div>
+                <div class="tags small-muted">MD · Quick references / cheat sheets</div>
+              </div>
+            </li>
+<li class="file" data-path="./md_outputs/LLM Infrastructure Cheat Sheet (Updated).md" data-pdf="./LLM Infrastructure Cheat Sheet (Updated).pdf">
+              <div class="meta">
+                <div class="title"><a href="#" class="file-link">LLM Infrastructure Cheat Sheet (Updated)</a></div>
+                <div class="desc"></div>
+                <div class="tags small-muted">MD · Quick references / cheat sheets</div>
+              </div>
+            </li><li class="file" data-path="./LLM Infrastructure Cheat Sheet_old.pdf" data-pdf="./LLM Infrastructure Cheat Sheet_old.pdf">
+              <div class="meta">
+                <div class="title"><a href="#" class="file-link">LLM Infrastructure Cheat Sheet_old</a></div>
+                <div class="desc"></div>
+                <div class="tags small-muted">PDF · Quick references / cheat sheets</div>
+              </div>
+            </li><li class="file" data-path="./LLM Infrastructure Cheat Sheet (Updated).pdf" data-pdf="./LLM Infrastructure Cheat Sheet (Updated).pdf">
+              <div class="meta">
+                <div class="title"><a href="#" class="file-link">LLM Infrastructure Cheat Sheet (Updated)</a></div>
+                <div class="desc"></div>
+                <div class="tags small-muted">PDF · Quick references / cheat sheets</div>
+              </div>
+            </li><li class="file" data-path="./md_outputs/LLM Infrastructure Cheat Sheet_old.md" data-pdf="./LLM Infrastructure Cheat Sheet_old.pdf">
+              <div class="meta">
+                <div class="title"><a href="#" class="file-link">LLM Infrastructure Cheat Sheet_old</a></div>
+                <div class="desc"></div>
+                <div class="tags small-muted">MD · Quick references / cheat sheets</div>
+              </div>
+            </li></ul>
         </section>
 
         <!-- Models -->
         <section class="category" data-category="Models">
           <h2>Models & inventory</h2>
           <ul class="files" id="modelsList">
-            <li class="file" data-path="./Ollama Models as of 2025 11 18" data-pdf="./Ollama Models as of 2025 11 18">
+            <li class="file" data-path="./Ollama Models as of 2025 11 18.txt" data-pdf="./Ollama Models as of 2025 11 18.txt">
               <div class="meta">
                 <div class="title"><a href="#" class="file-link">Ollama Models as of 2025 11 18</a></div>
                 <div class="desc">Model-by-model essentials, suggested defaults, and quantization notes — guidance for what to keep and what to pull for the 3060.</div>
@@ -266,7 +324,13 @@
               </div>
             </li>
 
-          </ul>
+          <li class="file" data-path="./LLM Recommendations for Programming and Development.pdf" data-pdf="./LLM Recommendations for Programming and Development.pdf">
+              <div class="meta">
+                <div class="title"><a href="#" class="file-link">LLM Recommendations for Programming and Development</a></div>
+                <div class="desc"></div>
+                <div class="tags small-muted">PDF · Models &amp; inventory</div>
+              </div>
+            </li></ul>
         </section>
 
         <!-- Workflows -->
@@ -313,7 +377,7 @@
               </div>
             </li>
 
-            <li class="file" data-path="./a" data-pdf="./a">
+            <li class="file" data-path="./a.txt" data-pdf="./a.txt">
               <div class="meta">
                 <div class="title"><a href="#" class="file-link">a</a></div>
                 <div class="desc">Small file listing `ollama show` commands (binary/encoded text in places).</div>
@@ -332,7 +396,70 @@
           </ul>
         </section>
 
-      </div>
+      
+        <section class="category" data-category="Junk">
+          <h2>Junk</h2>
+          <ul class="files">
+
+            <li class="file" data-path="./.DS_Store" data-pdf="">
+              <div class="meta">
+                <div class="title"><a href="#" class="file-link">DS Store Junk</a></div>
+                <div class="desc">Nothing</div>
+                <div class="tags small-muted">file · Junk</div>
+              </div>
+            </li>
+
+          <li class="file" data-path="./Doc_index.html" data-pdf="">
+              <div class="meta">
+                <div class="title"><a href="#" class="file-link">Doc_index</a></div>
+                <div class="desc">old index</div>
+                <div class="tags small-muted">HTML · Junk</div>
+              </div>
+            </li><li class="file" data-path="./Doc_index_Version2.html" data-pdf="">
+              <div class="meta">
+                <div class="title"><a href="#" class="file-link">Doc_index_Version2</a></div>
+                <div class="desc">old index</div>
+                <div class="tags small-muted">HTML · Junk</div>
+              </div>
+            </li><li class="file" data-path="./~$ep for 3060 - in the mean time as well.txt" data-pdf="">
+              <div class="meta">
+                <div class="title"><a href="#" class="file-link">~$ep for 3060 - in the mean time as well</a></div>
+                <div class="desc"></div>
+                <div class="tags small-muted">TXT · Junk</div>
+              </div>
+            </li><li class="file" data-path="./md_outputs/Rtx3060 Supplemental Improvements.md" data-pdf="./Rtx3060 Supplemental Improvements.pdf">
+              <div class="meta">
+                <div class="title"><a href="#" class="file-link">Rtx3060 Supplemental Improvements</a></div>
+                <div class="desc"></div>
+                <div class="tags small-muted">MD · Junk</div>
+              </div>
+            </li></ul>
+        </section>
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+</div>
     </aside>
 
     <section id="viewer" aria-label="Document viewer">
