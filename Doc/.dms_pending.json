@@ -1,0 +1,330 @@
+{
+  "timestamp": "2025-11-19T10:39:33.957568",
+  "new_files": [
+    {
+      "path": "./GROK.recommended.nano.banana.replacement.txt",
+      "abs_path": "Doc/GROK.recommended.nano.banana.replacement.txt",
+      "hash": "sha256:5a59429d95cc4e395c2cd302f87a7429805eeadc9c5ca0fc0a9e2c4485046415",
+      "size": 6756,
+      "ext": ".txt"
+    },
+    {
+      "path": "./ollama-show.bat",
+      "abs_path": "Doc/ollama-show.bat",
+      "hash": "sha256:4d7cc9928aef5c1f1b9c06f2d68c0c9b6793861aa63c789ae3b68845d1d22c9c",
+      "size": 834,
+      "ext": ".bat"
+    },
+    {
+      "path": "./Setting Up Real Image Manipulation on Your Local Server.pdf",
+      "abs_path": "Doc/Setting Up Real Image Manipulation on Your Local Server.pdf",
+      "hash": "sha256:f9ba490eee11c5bd1c08fe604d677712ac46127ff3b4580bf3c0b19641080937",
+      "size": 301434,
+      "ext": ".pdf"
+    },
+    {
+      "path": "./Ollama Download Commands for Recommended LLMs.pdf",
+      "abs_path": "Doc/Ollama Download Commands for Recommended LLMs.pdf",
+      "hash": "sha256:5ffe3eebb971f1cdeac71f7aced7c341b578280c7c651b8c85dd9beb432a34cb",
+      "size": 26540,
+      "ext": ".pdf"
+    },
+    {
+      "path": "./IMG_4666.jpeg",
+      "abs_path": "Doc/IMG_4666.jpeg",
+      "hash": "sha256:9de09295783cecbb945eec528ecb4240c9b0f3d43be4886c9920d294e12af505",
+      "size": 243744,
+      "ext": ".jpeg"
+    },
+    {
+      "path": "./LLM Infrastructure Cheat Sheet (Updated).pdf",
+      "abs_path": "Doc/LLM Infrastructure Cheat Sheet (Updated).pdf",
+      "hash": "sha256:14cc6e1554b911c0530ea4a92429de3b5b07289ba5396f1e35973c90f463db62",
+      "size": 169432,
+      "ext": ".pdf"
+    },
+    {
+      "path": "./RTX 3060 Setup Guide - Complete AI Coding Workflow.pdf",
+      "abs_path": "Doc/RTX 3060 Setup Guide - Complete AI Coding Workflow.pdf",
+      "hash": "sha256:ec57cf0a75712d023f2fefcd7e923a2bb0b3e86c0a81830da3e18f6821aa51e7",
+      "size": 300924,
+      "ext": ".pdf"
+    },
+    {
+      "path": "./OpenWebUI \u2014 Task Scheduler CLI Reference.txt",
+      "abs_path": "Doc/OpenWebUI \u2014 Task Scheduler CLI Reference.txt",
+      "hash": "sha256:24f2a53111ee0ce270f39810bec12fa4b9329c38f660b93e61cbb58e7126ebae",
+      "size": 7398,
+      "ext": ".txt"
+    },
+    {
+      "path": "./Image Generation Options for Open WebUI.pdf",
+      "abs_path": "Doc/Image Generation Options for Open WebUI.pdf",
+      "hash": "sha256:14bf125afa91e2cf5780e1c8236afaaab6d3a9f521e8b54f513b5691480c4d39",
+      "size": 166751,
+      "ext": ".pdf"
+    },
+    {
+      "path": "./What to Try Next.txt",
+      "abs_path": "Doc/What to Try Next.txt",
+      "hash": "sha256:394b6abc8707b81d767eb60596197fe551e79650115075914b69bd49a9b6b965",
+      "size": 730,
+      "ext": ".txt"
+    },
+    {
+      "path": "./AIChat CLI_ Capabilities and User Guide Summary.pdf",
+      "abs_path": "Doc/AIChat CLI_ Capabilities and User Guide Summary.pdf",
+      "hash": "sha256:b26eaf339d07393e6acc8a4a8db8fa09b92572a5b9d17e961804efe4e0541a47",
+      "size": 97754,
+      "ext": ".pdf"
+    },
+    {
+      "path": "./Prep for 3060 - in the mean time as well.txt",
+      "abs_path": "Doc/Prep for 3060 - in the mean time as well.txt",
+      "hash": "sha256:ab50fc09893389a733eb1bd2df6f5b3a58c90d3e819bded65cc4c8427c04243f",
+      "size": 23765,
+      "ext": ".txt"
+    },
+    {
+      "path": "./Quantization and Context Tokens \u2014 One\u2011Page Guide.html",
+      "abs_path": "Doc/Quantization and Context Tokens \u2014 One\u2011Page Guide.html",
+      "hash": "sha256:b6f2140bb43ed885059a81748b05097450be36fb790ebff28b0b0ccfb9e86173",
+      "size": 7044,
+      "ext": ".html"
+    },
+    {
+      "path": "./Ollama Models as of 2025 11 18.txt",
+      "abs_path": "Doc/Ollama Models as of 2025 11 18.txt",
+      "hash": "sha256:47c565ec0da3735f4ae389eeafa30f0c5b979bea206858395bde5ca73743e19e",
+      "size": 4211,
+      "ext": ".txt"
+    },
+    {
+      "path": "./ollama website list - LLM.txt",
+      "abs_path": "Doc/ollama website list - LLM.txt",
+      "hash": "sha256:504c8d30ee9c83e05a248d31c90c503c2f45beffa68ae96be2134a4860c3e25d",
+      "size": 24532,
+      "ext": ".txt"
+    },
+    {
+      "path": "./LLM Recommendations for Programming and Development.pdf",
+      "abs_path": "Doc/LLM Recommendations for Programming and Development.pdf",
+      "hash": "sha256:04d1cdbfcf361d8a06ad8ff45b627ba7cee3ae2ab32299071edab1d921eb4779",
+      "size": 59043,
+      "ext": ".pdf"
+    },
+    {
+      "path": "./ollama-ls.txt",
+      "abs_path": "Doc/ollama-ls.txt",
+      "hash": "sha256:24d1546eb5afe2b3178364a0953530c204aef43c263bfb2fc391c10424df445b",
+      "size": 2156,
+      "ext": ".txt"
+    },
+    {
+      "path": "./ollama.help.txt",
+      "abs_path": "Doc/ollama.help.txt",
+      "hash": "sha256:b87f997e8a821f4f919028e89404fecfa3c0d251a6ea38d5625eb1e19d852beb",
+      "size": 1494,
+      "ext": ".txt"
+    },
+    {
+      "path": "./Rtx3060 Supplemental Improvements.pdf",
+      "abs_path": "Doc/Rtx3060 Supplemental Improvements.pdf",
+      "hash": "sha256:c21729399953589884770d51e0c79a89a217518b45e396bad3b85adf3e5c0b61",
+      "size": 35841,
+      "ext": ".pdf"
+    },
+    {
+      "path": "./Prep for 3060 - in the mean time as well.docx",
+      "abs_path": "Doc/Prep for 3060 - in the mean time as well.docx",
+      "hash": "sha256:457563449e2ef0363c83849d155318690f0d577f73a57c9ddf83e9154db15891",
+      "size": 44053,
+      "ext": ".docx"
+    },
+    {
+      "path": "./GROK.Ollama.on.Win11.Ultimate.Perf.Guide.md",
+      "abs_path": "Doc/GROK.Ollama.on.Win11.Ultimate.Perf.Guide.md",
+      "hash": "sha256:fee677939504bf8219e90c3ae4bd32d06848b35edea79db9faba09b5cbd57ac7",
+      "size": 12455,
+      "ext": ".md"
+    },
+    {
+      "path": "./a.txt",
+      "abs_path": "Doc/a.txt",
+      "hash": "sha256:c8e985fd58669b089bbe8387ec47c4eaffb71ff13a6fa710118ddcb8a11f4b78",
+      "size": 419,
+      "ext": ".txt"
+    },
+    {
+      "path": "./New RTX 3060 Setup - SETTING_UP_REAL_IMAGE_MANIPULATION_LOCAL_SERVER.md",
+      "abs_path": "Doc/New RTX 3060 Setup - SETTING_UP_REAL_IMAGE_MANIPULATION_LOCAL_SERVER.md",
+      "hash": "sha256:f606b26297f251eee0a97ded31579e1a58e450add2f1da375610cf1b9db5b761",
+      "size": 10986,
+      "ext": ".md"
+    },
+    {
+      "path": "./LLM Infrastructure Cheat Sheet_old.pdf",
+      "abs_path": "Doc/LLM Infrastructure Cheat Sheet_old.pdf",
+      "hash": "sha256:aabfcb7a6ce319541e74320e2f20d7d7588f42c9a2a0077d5d1e64737360b302",
+      "size": 85803,
+      "ext": ".pdf"
+    },
+    {
+      "path": "./GROK.recommended.llms.w.RTX.3060.txt",
+      "abs_path": "Doc/GROK.recommended.llms.w.RTX.3060.txt",
+      "hash": "sha256:4a4c72e8b790e80f8209589598b88233ad8826f2bdec09e119d3ccbf61dd6a24",
+      "size": 5297,
+      "ext": ".txt"
+    },
+    {
+      "path": "./ollama-show-out.txt",
+      "abs_path": "Doc/ollama-show-out.txt",
+      "hash": "sha256:9510eb83c3de99cea575e15b32941c3d61faa4a6aef27cba531f36c992e124eb",
+      "size": 13420,
+      "ext": ".txt"
+    },
+    {
+      "path": "./Quantization & Context Tokens \u2014 A One\u2011Page Practical Guide.md",
+      "abs_path": "Doc/Quantization & Context Tokens \u2014 A One\u2011Page Practical Guide.md",
+      "hash": "sha256:a66c9cd80237456b86492c9a88daeb69b5cca69ed1da8d02a3541bf44dee092f",
+      "size": 6405,
+      "ext": ".md"
+    },
+    {
+      "path": "./IMG_4664.jpeg",
+      "abs_path": "Doc/IMG_4664.jpeg",
+      "hash": "sha256:15c3b08105dc9b6c1e1d252b8ff83b4d5555e8ba358e4ca8bcd75efc5674bc7d",
+      "size": 205327,
+      "ext": ".jpeg"
+    },
+    {
+      "path": "./Open WebUI Installation Guide for Windows 11.pdf",
+      "abs_path": "Doc/Open WebUI Installation Guide for Windows 11.pdf",
+      "hash": "sha256:7540c26a3429540e750f2ca96cf6dc2ecb315acab9444ea77ed7e6d4cd1163fd",
+      "size": 132280,
+      "ext": ".pdf"
+    },
+    {
+      "path": "./Claude session - started the whole rabbit trail of hosting my own LLM.md",
+      "abs_path": "Doc/Claude session - started the whole rabbit trail of hosting my own LLM.md",
+      "hash": "sha256:983f583038f283e3dfb7118a34e61c5ae272599d00476ca4795c66788f196100",
+      "size": 27886,
+      "ext": ".md"
+    },
+    {
+      "path": "./Doc_INDEX_Version6.md",
+      "abs_path": "Doc/Doc_INDEX_Version6.md",
+      "hash": "sha256:9d0aee3859fdd0fd162bb6279aff6dc830eb108c1e2208472140b00187a43a23",
+      "size": 8525,
+      "ext": ".md"
+    },
+    {
+      "path": "./Using 1040 until 3060 Gets Here.txt",
+      "abs_path": "Doc/Using 1040 until 3060 Gets Here.txt",
+      "hash": "sha256:5532031a61034cb24173bdc24da086622fb5286ca7ab2def5c0f01f8ac4dce5d",
+      "size": 4150,
+      "ext": ".txt"
+    },
+    {
+      "path": "./Open WebUI Management Guide.pdf",
+      "abs_path": "Doc/Open WebUI Management Guide.pdf",
+      "hash": "sha256:48b93f0e708f7210ce98270f435ec182060b12a9b2841cfbb0befad0e78b9a48",
+      "size": 97363,
+      "ext": ".pdf"
+    },
+    {
+      "path": "./LLM QUICK SELECTION GUIDE.txt",
+      "abs_path": "Doc/LLM QUICK SELECTION GUIDE.txt",
+      "hash": "sha256:e9437455ba51a8ba2455fd30484ca832109aa3cde125d611f60643ed6cccad35",
+      "size": 2396,
+      "ext": ".txt"
+    },
+    {
+      "path": "./IMG_4665.jpeg",
+      "abs_path": "Doc/IMG_4665.jpeg",
+      "hash": "sha256:e2b2ff6cec8523bbd5fd4f3997b30b9f2cbd03fc1cd43fdd86d9495aab5779df",
+      "size": 188985,
+      "ext": ".jpeg"
+    },
+    {
+      "path": "./md_outputs/Setting Up Real Image Manipulation on Your Local Server.md",
+      "abs_path": "Doc/md_outputs/Setting Up Real Image Manipulation on Your Local Server.md",
+      "hash": "sha256:ef0819cb504527343672411b32568978450a981b90eec34736746d8bf38b2b09",
+      "size": 22425,
+      "ext": ".md"
+    },
+    {
+      "path": "./md_outputs/LLM Infrastructure Cheat Sheet_old.md",
+      "abs_path": "Doc/md_outputs/LLM Infrastructure Cheat Sheet_old.md",
+      "hash": "sha256:44ce1b4175b7322d146307f7963ddd98a963d314c48099cedb56e85132053aeb",
+      "size": 4080,
+      "ext": ".md"
+    },
+    {
+      "path": "./md_outputs/Rtx3060 Supplemental Improvements.md",
+      "abs_path": "Doc/md_outputs/Rtx3060 Supplemental Improvements.md",
+      "hash": "sha256:fbd1b4e98b1ca759f5f8126621a8035236280441b5ad35264daab1f08d162560",
+      "size": 4800,
+      "ext": ".md"
+    },
+    {
+      "path": "./md_outputs/Image Generation Options for Open WebUI.md",
+      "abs_path": "Doc/md_outputs/Image Generation Options for Open WebUI.md",
+      "hash": "sha256:e305be48c301af12d53b78a35376805902d294f1e60fc6b3893d5d556fa3db1b",
+      "size": 12219,
+      "ext": ".md"
+    },
+    {
+      "path": "./md_outputs/RTX 3060 Setup Guide - Complete AI Coding Workflow.md",
+      "abs_path": "Doc/md_outputs/RTX 3060 Setup Guide - Complete AI Coding Workflow.md",
+      "hash": "sha256:08bd7cd0c263679f9561760c5b27bd0fc33f5cbe3622706df582562b7624b4a4",
+      "size": 26243,
+      "ext": ".md"
+    },
+    {
+      "path": "./md_outputs/AIChat CLI_ Capabilities and User Guide Summary.md",
+      "abs_path": "Doc/md_outputs/AIChat CLI_ Capabilities and User Guide Summary.md",
+      "hash": "sha256:60bae954c4cf75aa2481f70a981755a4ee569d2c07843cfbb47e6acc970ec36c",
+      "size": 7326,
+      "ext": ".md"
+    },
+    {
+      "path": "./md_outputs/Open WebUI Installation Guide for Windows 11.md",
+      "abs_path": "Doc/md_outputs/Open WebUI Installation Guide for Windows 11.md",
+      "hash": "sha256:0141d350d151735e5fdb96d2d8987c2143de1f08ab9dc1e4554bb1acf4ef12b8",
+      "size": 11375,
+      "ext": ".md"
+    },
+    {
+      "path": "./md_outputs/LLM Recommendations for Programming and Development.md",
+      "abs_path": "Doc/md_outputs/LLM Recommendations for Programming and Development.md",
+      "hash": "sha256:38275f58a9365a5a3d33d897fedb5387466194dad700069931c7b39602f08086",
+      "size": 3679,
+      "ext": ".md"
+    },
+    {
+      "path": "./md_outputs/Ollama Download Commands for Recommended LLMs.md",
+      "abs_path": "Doc/md_outputs/Ollama Download Commands for Recommended LLMs.md",
+      "hash": "sha256:01bc0e7384befd124ce5128dbcccb12403580909c74792f70bc883d8056ac27c",
+      "size": 1042,
+      "ext": ".md"
+    },
+    {
+      "path": "./md_outputs/Open WebUI Management Guide.md",
+      "abs_path": "Doc/md_outputs/Open WebUI Management Guide.md",
+      "hash": "sha256:a0dfcaefc4c9ed05feb6ed6dba37666d9dc8184290ec66f3658223afca7c7d89",
+      "size": 7308,
+      "ext": ".md"
+    },
+    {
+      "path": "./md_outputs/LLM Infrastructure Cheat Sheet (Updated).md",
+      "abs_path": "Doc/md_outputs/LLM Infrastructure Cheat Sheet (Updated).md",
+      "hash": "sha256:8b8ac34b44867116200278c22f2cbc9e0076daecd7f5784b7a7d6aa372912418",
+      "size": 5989,
+      "ext": ".md"
+    }
+  ],
+  "changed_files": [],
+  "missing_files": [],
+  "needs_processing": true
+}
