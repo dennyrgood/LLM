@@ -456,13 +456,6 @@
       "summary_approved": true,
       "title": "DMS Summarization Pipeline Debug Report - Gemini fixing Claude Code",
       "description": "Debug report details fixes in DMS summarization pipeline for connection stability and model reliability."
-    },
-    "./i.html": {
-      "hash": "sha256:eae492aa49003a225abb5fe5d3b0e52e5e4228b5f4d6d8d894fdc0f033f67761",
-      "last_processed": "2025-11-20T07:48:20.618226",
-      "summary_approved": true,
-      "title": "i",
-      "description": "This document serves as an index for project documentation with sections on setup and usage guides."
     }
   },
   "categories": [
@@ -473,7 +466,7 @@
     "Scripts",
     "Workflows"
   ],
-  "last_scan": "2025-11-20T07:48:20.618243",
+  "last_scan": "2025-11-19T23:16:56.798008",
   "bootstrap_version": "1.0"
 }
 -->
