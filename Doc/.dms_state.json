@@ -372,7 +372,8 @@
       "summary": "This document provides instructions for optimizing Ollama's performance and adding models via OpenAI API.",
       "summary_approved": true,
       "title": "IMG_4666.jpeg",
-      "last_processed": "2025-11-19T23:16:56.796089"
+      "last_processed": "2025-11-19T23:16:56.796089",
+      "readable_version": "./IMG_4666.jpeg"
     },
     "./md_outputs/Need more info on Tool Use.png.txt": {
       "hash": "sha256:99bd24d3ce81b595c12f7d660a3cf276738225b6f92ebea142e3a7cdff64fa4e",
@@ -380,7 +381,8 @@
       "summary": "The document seeks additional information on tool use and mentions specific tools needing exact counts.",
       "summary_approved": true,
       "title": "Need more info on Tool Use.png",
-      "last_processed": "2025-11-19T23:16:56.796317"
+      "last_processed": "2025-11-19T23:16:56.796317",
+      "readable_version": "./Need more info on Tool Use.png"
     },
     "./md_outputs/Day of rtx3040 models.png.txt": {
       "hash": "sha256:f97e2ea32bab67dc9c457da75685283c2828e0bfc9656f05e86a889016f1b351",
@@ -388,7 +390,8 @@
       "summary": "This document provides instructions for setting up and testing RTX3060 models using Ollama on Windows 11.",
       "summary_approved": true,
       "title": "Day of rtx3040 models.png",
-      "last_processed": "2025-11-19T23:16:56.796466"
+      "last_processed": "2025-11-19T23:16:56.796466",
+      "readable_version": "./Day of rtx3040 models.png"
     },
     "./md_outputs/aichat not working.png.txt": {
       "hash": "sha256:7f8bcad05a68964a2374413125f638e7edacaccde9279bdfa96d8319d7080e6a",
@@ -396,7 +399,8 @@
       "summary": "The document provides instructions for setting up the AI chatbot 'aichat' using Ollama with specific model configurations and usage commands.",
       "summary_approved": true,
       "title": "aichat not working.png",
-      "last_processed": "2025-11-19T23:16:56.796724"
+      "last_processed": "2025-11-19T23:16:56.796724",
+      "readable_version": "./aichat not working.png"
     },
     "./md_outputs/IMG_4664.jpeg.txt": {
       "hash": "sha256:5a7fa32ab92075bd09129245349a4e59fe763a6c221e19c4de6bab1031cd5070",
@@ -404,7 +408,8 @@
       "summary": "The document provides instructions for installing and referencing the 'qwen2.5-coder' model using Ollama.",
       "summary_approved": true,
       "title": "IMG_4664.jpeg",
-      "last_processed": "2025-11-19T23:16:56.796848"
+      "last_processed": "2025-11-19T23:16:56.796848",
+      "readable_version": "./IMG_4664.jpeg"
     },
     "./md_outputs/IMG_4665.jpeg.txt": {
       "hash": "sha256:963ad4de771d5c2f38dfaeb95ac9d8316a96afd31182dbeffcf75d11f37ddd59",
@@ -412,7 +417,8 @@
       "summary": "The document contains OCR-extracted text from an image discussing AI coding tasks and file management strategies.",
       "summary_approved": true,
       "title": "IMG_4665.jpeg",
-      "last_processed": "2025-11-19T23:16:56.797022"
+      "last_processed": "2025-11-19T23:16:56.797022",
+      "readable_version": "./IMG_4665.jpeg"
     },
     "./md_outputs/what is a tool enabled prompt.png.txt": {
       "hash": "sha256:f757bd6fb462ffbf5995715710ea39d83ed467c2473981cff970d990a9c78643",
@@ -420,7 +426,8 @@
       "summary": "The document provides quick commands for testing Ollama models and instructions on adjusting settings upon the arrival of an RTX 3CTX.",
       "summary_approved": true,
       "title": "what is a tool enabled prompt.png",
-      "last_processed": "2025-11-19T23:16:56.797305"
+      "last_processed": "2025-11-19T23:16:56.797305",
+      "readable_version": "./what is a tool enabled prompt.png"
     },
     "./md_outputs/what does local api server mean.png.txt": {
       "hash": "sha256:2d36c119ddf5592b13b9a38a1078740ac8b5e120e853359b3d9e174616a0da7a",
@@ -428,7 +435,8 @@
       "summary": "This document explains how to start a local HTTP server for OpenAl API using 'aichat' models and redirect existing applications from standard APIs.",
       "summary_approved": true,
       "title": "what does local api server mean.png",
-      "last_processed": "2025-11-19T23:16:56.797463"
+      "last_processed": "2025-11-19T23:16:56.797463",
+      "readable_version": "./what does local api server mean.png"
     },
     "./md_outputs/Prep for 3060 - in the mean time as well.docx.txt": {
       "hash": "sha256:62352add10f6cff7af11175086ed22524fef33bd15d011d17f4c2dbba2a32dd4",
@@ -436,7 +444,8 @@
       "summary": "This document details the configuration for using various AI models on different hardware until an RTX 3060 GPU becomes available.",
       "summary_approved": true,
       "title": "Prep for 3060 - in the mean time as well.docx",
-      "last_processed": "2025-11-19T23:16:56.797875"
+      "last_processed": "2025-11-19T23:16:56.797875",
+      "readable_version": "./Prep for 3060 - in the mean time as well.docx"
     },
     "./md_outputs/DMS Summarization Pipeline Debug Report - Gemini fixing Claude Code.md": {
       "hash": "sha256:26a3bedaa74c731ae9d8a66a0b792bc86f714fb871583f098b8b2482f9806ac0",
