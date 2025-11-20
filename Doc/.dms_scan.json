@@ -1,22 +1,18 @@
 {
-  "timestamp": "2025-11-20T12:21:14.133351",
+  "timestamp": "2025-11-20T13:39:43.577926",
   "new_files": [
     {
-      "path": "./index.html",
-      "hash": "sha256:85e52ccbbe30ade921483f7412d9c5ae7658faea8b8a43872c6eaf1ab8df6d80",
-      "size": 62319
-    },
-    {
-      "path": "./sample_run.txt",
-      "hash": "sha256:ec2a200c009f6a682c4afd270dfd80fb145f492618fac09ae4201108de0ed76c",
-      "size": 16812
+      "path": "./md_outputs/IMG_4666 copy.txt",
+      "hash": "sha256:3df6d7a9aed0b3307e37a7b6ed5c1acc5a340cee6a5d905a019d37f6201cb9e1",
+      "size": 334
     }
   ],
-  "changed_files": [],
-  "missing_files": [
+  "changed_files": [
     {
-      "path": "./i.html",
-      "was_category": "Guides"
+      "path": "./index.html",
+      "old_hash": "sha256:621222577106a8f6eb04e577d85b1bed011b8db207ee8d248a2b891418591438",
+      "new_hash": "sha256:9cb4f675b2eaa29b62501cc417dbc060f3f43df828857802dca0fd0f708f8f8a"
     }
-  ]
+  ],
+  "missing_files": []
 }

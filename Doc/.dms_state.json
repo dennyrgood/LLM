@@ -1,7 +1,7 @@
 {
   "metadata": {
     "last_scan": "2025-11-20T07:48:20.618243",
-    "last_apply": "2025-11-20T11:45:24.485596",
+    "last_apply": "2025-11-20T13:52:15.118421",
     "migrated_from_embedded": true,
     "migration_date": "2025-11-20T11:45:24.485598"
   },
@@ -326,14 +326,6 @@
       "title": "What to Try Next.txt",
       "last_processed": "2025-11-19T10:46:04.769437"
     },
-    "./a.txt": {
-      "hash": "sha256:c8e985fd58669b089bbe8387ec47c4eaffb71ff13a6fa710118ddcb8a11f4b78",
-      "category": "Scripts",
-      "summary": "Small file listing `ollama show` commands (binary/encoded text in places).",
-      "summary_approved": true,
-      "title": "a",
-      "last_processed": "2025-11-19T10:46:04.769589"
-    },
     "./ollama-show.bat": {
       "hash": "sha256:4d7cc9928aef5c1f1b9c06f2d68c0c9b6793861aa63c789ae3b68845d1d22c9c",
       "category": "Scripts",
@@ -350,14 +342,6 @@
       "title": "index b4 Claude",
       "last_processed": "2025-11-19T23:16:56.795297"
     },
-    "./ollama.help.txt": {
-      "hash": "sha256:b87f997e8a821f4f919028e89404fecfa3c0d251a6ea38d5625eb1e19d852beb",
-      "category": "QuickRefs",
-      "summary": "The document provides instructions and command-line examples for using the Olama model within various contexts such as start, stop, status checks, shutdown procedures, stopping on errors, restarting after crashes, setting up a server with environment variables, starting in interactive mode, running scripts or commands through it, checking its version, downloading source code, and compiling from Git.",
-      "summary_approved": true,
-      "title": "ollama.help",
-      "last_processed": "2025-11-19T23:16:56.795723"
-    },
     "./image descriptions.txt": {
       "hash": "sha256:1e50efa1034914cf1ca1716e3a49a3ae2b6a947a7c7c92bcbc8ef9544968306d",
       "category": "Models",
@@ -365,15 +349,6 @@
       "summary_approved": true,
       "title": "image descriptions",
       "last_processed": "2025-11-19T23:16:56.795854"
-    },
-    "./md_outputs/IMG_4666.jpeg.txt": {
-      "hash": "sha256:ac6d0cff33700975adc6d5e621e4687ba0932ac24b365656bc1e46fa360a43e7",
-      "category": "Workflows",
-      "summary": "This document provides instructions for optimizing Ollama's performance and adding models via OpenAI API.",
-      "summary_approved": true,
-      "title": "IMG_4666.jpeg",
-      "last_processed": "2025-11-19T23:16:56.796089",
-      "readable_version": "./IMG_4666.jpeg"
     },
     "./md_outputs/Need more info on Tool Use.png.txt": {
       "hash": "sha256:99bd24d3ce81b595c12f7d660a3cf276738225b6f92ebea142e3a7cdff64fa4e",
@@ -455,13 +430,61 @@
       "title": "DMS Summarization Pipeline Debug Report - Gemini fixing Claude Code",
       "last_processed": "2025-11-19T23:16:56.798005"
     },
-    "./i.html": {
-      "hash": "sha256:eae492aa49003a225abb5fe5d3b0e52e5e4228b5f4d6d8d894fdc0f033f67761",
+    "./md_outputs/IMG_4664 blah.txt": {
+      "hash": "sha256:1c9543f497d2981a7aafa55a0fcfefdb2f6c4be966f6c90246d9ceb473e554f7",
       "category": "Guides",
-      "summary": "This document serves as an index for project documentation with sections on setup and usage guides.",
+      "summary": "1. Prominent models for inline coding include qwen2.5-coder (7b or 14b), codellama variants, and Starcoder2 (15b).\n\n2. Installation via bash commands involves pulling the ollama/awen2.5- model using `ollama pull awen2.5-`.\n\n3. Reference in configuration: Add `\"WY ven 2\u043d\u043e\u0441\u0438 \u041a\u043e\u0434\u0435\u0440\u0430\"`, `\"model\": \"ollama/awen2.5-\"` to your `continue.config.json` under the models array.",
       "summary_approved": true,
-      "title": "i",
-      "last_processed": "2025-11-20T07:48:20.618226"
+      "title": "IMG_4664 blah",
+      "last_processed": "2025-11-20T12:55:29.826552"
+    },
+    "./md_outputs/IMG_4666.jpeg.txt": {
+      "hash": "sha256:ac6d0cff33700975adc6d5e621e4687ba0932ac24b365656bc1e46fa360a43e7",
+      "category": "Guides",
+      "summary": "In November 2025, user discusses speeding up their Ollama setup; options include configuring KV-cache or opting for the Qwen model. They can also add models on demand via OpvenAl AY and seek answers to questions using Xe}. For local improvements, users are advised to run small models directly from a\u2026",
+      "summary_approved": true,
+      "title": "IMG_4666.jpeg",
+      "last_processed": "2025-11-20T13:33:13.773644"
+    },
+    "./index.html": {
+      "hash": "",
+      "category": "Guides",
+      "summary": "Technical Summary (57 words): This document is a style guide for project documentation, detailing UI components like header and sidebar layouts using CSS variables. It focuses on the left pane's appearance with controls, search bar customization, file listing styles, and hover effects to enhance user interaction within the Project Docs\u2026",
+      "summary_approved": true,
+      "title": "index",
+      "last_processed": "2025-11-20T13:52:15.118407"
+    },
+    "./ollama.help.txt": {
+      "hash": "sha256:b87f997e8a821f4f919028e89404fecfa3c0d251a6ea38d5625eb1e19d852beb",
+      "category": "Guides",
+      "summary": "Labor George LaMaithe, a U-S graduate with CMOD studies, is featured in the classifieds section of Opencall (CMOD) job board for various labor opportunities within California's construction industry including SEVRSOW jobs. Recent publications highlight his work on campus and beyond as part of this dynamic community seeking a skilled individual\u2026",
+      "summary_approved": true,
+      "title": "ollama.help",
+      "last_processed": "2025-11-20T13:33:13.773658"
+    },
+    "./sample_run.txt": {
+      "hash": "sha256:ec2a200c009f6a682c4afd270dfd80fb145f492618fac09ae4201108de0ed76c",
+      "category": "Scripts",
+      "summary": "Command `dms-manager` and its script variants are unavailable in the current environment on a macOS system; however, DMS scripts provide functionalities such as scanning Doc/, converting images to text summaries using AI, interactive reviewing of changes, applying approved updates to index.html, automating workflows including scan, process, summary creation and application\u2026",
+      "summary_approved": true,
+      "title": "sample_run",
+      "last_processed": "2025-11-20T13:33:13.773663"
+    },
+    "./ollama show model batch file.txt": {
+      "hash": "sha256:c8e985fd58669b089bbe8387ec47c4eaffb71ff13a6fa710118ddcb8a11f4b78",
+      "category": "Guides",
+      "summary": "Document summarizes various Ollama app instances across different platforms and versions, ranging from basic command prompts to advanced cloud setups with enhanced features like GPU acceleration. Instances are labeled as \"show\" or listed by the latest version suffix (\"-latest\"). Some entries specify specific coders (e.g., qwen2.5-coder) alongside platform and environment\u2026",
+      "summary_approved": true,
+      "title": "ollama show model batch file",
+      "last_processed": "2025-11-20T13:33:13.773669"
+    },
+    "./md_outputs/IMG_4666 copy.txt": {
+      "hash": "sha256:3df6d7a9aed0b3307e37a7b6ed5c1acc5a340cee6a5d905a019d37f6201cb9e1",
+      "category": "Guides",
+      "summary": "Document discusses optimizing Ollama's speed by using a KV-cache or switching to Qwen 7B model. It offers the option to run local models on laptops for faster performance when needed, and guides users in adding any available AI model via OpvenAl AY format with Xe} @\u00ae commands.",
+      "summary_approved": true,
+      "title": "IMG_4666 copy",
+      "last_processed": "2025-11-20T13:52:15.118371"
     }
   }
 }
