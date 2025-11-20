@@ -32,7 +32,7 @@
     },
     "./Setting Up Real Image Manipulation on Your Local Server.pdf": {
       "hash": "sha256:f9ba490eee11c5bd1c08fe604d677712ac46127ff3b4580bf3c0b19641080937",
-      "category": "Junk",
+      "category": "Workflows",
       "summary": "",
       "summary_approved": true,
       "title": "New RTX 3060 Setup - SETTING_UP_REAL_IMAGE_MANIPULATION_LOCAL_SERVER.md",
@@ -72,7 +72,7 @@
     },
     "./RTX 3060 Setup Guide - Complete AI Coding Workflow.pdf": {
       "hash": "sha256:ec57cf0a75712d023f2fefcd7e923a2bb0b3e86c0a81830da3e18f6821aa51e7",
-      "category": "Junk",
+      "category": "Workflows",
       "summary": "",
       "summary_approved": true,
       "title": "RTX 3060 Setup Guide - Complete AI Coding Workflow (md)",
@@ -96,7 +96,7 @@
     },
     "./Open WebUI Management Guide.pdf": {
       "hash": "sha256:48b93f0e708f7210ce98270f435ec182060b12a9b2841cfbb0befad0e78b9a48",
-      "category": "Junk",
+      "category": "Guides",
       "summary": "",
       "summary_approved": true,
       "title": "Open WebUI Management Guide (md)",
@@ -112,7 +112,7 @@
     },
     "./AIChat CLI_ Capabilities and User Guide Summary.pdf": {
       "hash": "sha256:b26eaf339d07393e6acc8a4a8db8fa09b92572a5b9d17e961804efe4e0541a47",
-      "category": "Junk",
+      "category": "Guides",
       "summary": "",
       "summary_approved": true,
       "title": "AIChat CLI: Capabilities and User Guide Summary (md)",
@@ -352,7 +352,7 @@
     },
     "./ollama.help.txt": {
       "hash": "sha256:b87f997e8a821f4f919028e89404fecfa3c0d251a6ea38d5625eb1e19d852beb",
-      "category": "Junk",
+      "category": "QuickRefs",
       "summary": "The document provides instructions and command-line examples for using the Olama model within various contexts such as start, stop, status checks, shutdown procedures, stopping on errors, restarting after crashes, setting up a server with environment variables, starting in interactive mode, running scripts or commands through it, checking its version, downloading source code, and compiling from Git.",
       "summary_approved": true,
       "title": "ollama.help",
@@ -376,7 +376,7 @@
     },
     "./md_outputs/Need more info on Tool Use.png.txt": {
       "hash": "sha256:99bd24d3ce81b595c12f7d660a3cf276738225b6f92ebea142e3a7cdff64fa4e",
-      "category": "Junk",
+      "category": "QuickRefs",
       "summary": "The document seeks additional information on tool use and mentions specific tools needing exact counts.",
       "summary_approved": true,
       "title": "Need more info on Tool Use.png",
@@ -384,7 +384,7 @@
     },
     "./md_outputs/Day of rtx3040 models.png.txt": {
       "hash": "sha256:f97e2ea32bab67dc9c457da75685283c2828e0bfc9656f05e86a889016f1b351",
-      "category": "Junk",
+      "category": "Models",
       "summary": "This document provides instructions for setting up and testing RTX3060 models using Ollama on Windows 11.",
       "summary_approved": true,
       "title": "Day of rtx3040 models.png",
@@ -392,7 +392,7 @@
     },
     "./md_outputs/aichat not working.png.txt": {
       "hash": "sha256:7f8bcad05a68964a2374413125f638e7edacaccde9279bdfa96d8319d7080e6a",
-      "category": "Junk",
+      "category": "QuickRefs",
       "summary": "The document provides instructions for setting up the AI chatbot 'aichat' using Ollama with specific model configurations and usage commands.",
       "summary_approved": true,
       "title": "aichat not working.png",
@@ -416,7 +416,7 @@
     },
     "./md_outputs/what is a tool enabled prompt.png.txt": {
       "hash": "sha256:f757bd6fb462ffbf5995715710ea39d83ed467c2473981cff970d990a9c78643",
-      "category": "Junk",
+      "category": "QuickRefs",
       "summary": "The document provides quick commands for testing Ollama models and instructions on adjusting settings upon the arrival of an RTX 3CTX.",
       "summary_approved": true,
       "title": "what is a tool enabled prompt.png",
@@ -424,7 +424,7 @@
     },
     "./md_outputs/what does local api server mean.png.txt": {
       "hash": "sha256:2d36c119ddf5592b13b9a38a1078740ac8b5e120e853359b3d9e174616a0da7a",
-      "category": "Junk",
+      "category": "QuickRefs",
       "summary": "This document explains how to start a local HTTP server for OpenAl API using 'aichat' models and redirect existing applications from standard APIs.",
       "summary_approved": true,
       "title": "what does local api server mean.png",
@@ -432,7 +432,7 @@
     },
     "./md_outputs/Prep for 3060 - in the mean time as well.docx.txt": {
       "hash": "sha256:62352add10f6cff7af11175086ed22524fef33bd15d011d17f4c2dbba2a32dd4",
-      "category": "Junk",
+      "category": "Workflows",
       "summary": "This document details the configuration for using various AI models on different hardware until an RTX 3060 GPU becomes available.",
       "summary_approved": true,
       "title": "Prep for 3060 - in the mean time as well.docx",
@@ -440,7 +440,7 @@
     },
     "./md_outputs/DMS Summarization Pipeline Debug Report - Gemini fixing Claude Code.md": {
       "hash": "sha256:26a3bedaa74c731ae9d8a66a0b792bc86f714fb871583f098b8b2482f9806ac0",
-      "category": "Junk",
+      "category": "Guides",
       "summary": "Debug report details fixes in DMS summarization pipeline for connection stability and model reliability.",
       "summary_approved": true,
       "title": "DMS Summarization Pipeline Debug Report - Gemini fixing Claude Code",
