@@ -42,9 +42,11 @@
     #viewer{flex:1;display:flex;flex-direction:column;min-width:360px}
     #viewerHeader{padding:14px;border-bottom:1px solid rgba(255,255,255,0.03);display:flex;align-items:center;gap:12px}
     #viewerHeader h3{margin:0;font-size:15px}
-    #viewerBody{padding:18px;overflow:auto;background:linear-gradient(180deg, rgba(255,255,255,0.006), rgba(255,255,255,0.004))}
+    #viewerBody{padding:18px;overflow:auto;background:linear-gradient(180deg, rgba(255,255,255,0.006), rgba(255,255,255,0.004));display:flex;flex-direction:column}
     /* content area */
-    #content{max-width:1000px;margin:0 auto}
+    #content{max-width:1000px;margin:0 auto;flex:1;display:flex;flex-direction:column;width:100%}
+    /* PDF viewer should take full height */
+    #pdfViewer{height:80vh !important;}
     /* markdown container */
     #mdViewer{background:rgba(255,255,255,0.01);padding:18px;border-radius:8px}
     #mdViewer h1,#mdViewer h2,#mdViewer h3{color:#e8faff}
@@ -80,7 +82,7 @@
 {
   "metadata": {
     "last_scan": "2025-11-20T07:48:20.618243",
-    "last_apply": "2025-11-20T13:52:15.118421",
+    "last_apply": "2025-11-20T14:52:59.464731",
     "migrated_from_embedded": true,
     "migration_date": "2025-11-20T11:45:24.485598"
   },
@@ -317,14 +319,6 @@
       "title": "LLM Infrastructure Cheat Sheet_old",
       "last_processed": "2025-11-19T10:46:04.765528"
     },
-    "./md_outputs/Ollama Download Commands for Recommended LLMs.md": {
-      "hash": "sha256:01bc0e7384befd124ce5128dbcccb12403580909c74792f70bc883d8056ac27c",
-      "category": "QuickRefs",
-      "summary": "",
-      "summary_approved": true,
-      "title": "Ollama Download Commands for Recommended LLMs.pdf",
-      "last_processed": "2025-11-19T10:46:04.765712"
-    },
     "./Ollama Models as of 2025 11 18.txt": {
       "hash": "sha256:47c565ec0da3735f4ae389eeafa30f0c5b979bea206858395bde5ca73743e19e",
       "category": "Models",
@@ -509,61 +503,79 @@
       "title": "DMS Summarization Pipeline Debug Report - Gemini fixing Claude Code",
       "last_processed": "2025-11-19T23:16:56.798005"
     },
-    "./md_outputs/IMG_4664 blah.txt": {
-      "hash": "sha256:1c9543f497d2981a7aafa55a0fcfefdb2f6c4be966f6c90246d9ceb473e554f7",
-      "category": "Guides",
-      "summary": "1. Prominent models for inline coding include qwen2.5-coder (7b or 14b), codellama variants, and Starcoder2 (15b).\n\n2. Installation via bash commands involves pulling the ollama/awen2.5- model using `ollama pull awen2.5-`.\n\n3. Reference in configuration: Add `\"WY ven 2\u043d\u043e\u0441\u0438 \u041a\u043e\u0434\u0435\u0440\u0430\"`, `\"model\": \"ollama/awen2.5-\"` to your `continue.config.json` under the models array.",
-      "summary_approved": true,
-      "title": "IMG_4664 blah",
-      "last_processed": "2025-11-20T12:55:29.826552"
-    },
-    "./md_outputs/IMG_4666.jpeg.txt": {
-      "hash": "sha256:ac6d0cff33700975adc6d5e621e4687ba0932ac24b365656bc1e46fa360a43e7",
-      "category": "Guides",
-      "summary": "In November 2025, user discusses speeding up their Ollama setup; options include configuring KV-cache or opting for the Qwen model. They can also add models on demand via OpvenAl AY and seek answers to questions using Xe}. For local improvements, users are advised to run small models directly from a\u2026",
-      "summary_approved": true,
-      "title": "IMG_4666.jpeg",
-      "last_processed": "2025-11-20T13:33:13.773644"
-    },
     "./index.html": {
       "hash": "",
       "category": "Guides",
-      "summary": "Technical Summary (57 words): This document is a style guide for project documentation, detailing UI components like header and sidebar layouts using CSS variables. It focuses on the left pane's appearance with controls, search bar customization, file listing styles, and hover effects to enhance user interaction within the Project Docs\u2026",
+      "summary": "The document appears to be an HTML file providing documentation for various components of 'Project Docs', likely including navigational elements and styling information.",
       "summary_approved": true,
       "title": "index",
-      "last_processed": "2025-11-20T13:52:15.118407"
+      "last_processed": "2025-11-20T14:52:59.464722"
     },
     "./ollama.help.txt": {
       "hash": "sha256:b87f997e8a821f4f919028e89404fecfa3c0d251a6ea38d5625eb1e19d852beb",
       "category": "Guides",
-      "summary": "Labor George LaMaithe, a U-S graduate with CMOD studies, is featured in the classifieds section of Opencall (CMOD) job board for various labor opportunities within California's construction industry including SEVRSOW jobs. Recent publications highlight his work on campus and beyond as part of this dynamic community seeking a skilled individual\u2026",
+      "summary": "OllamaHelp.txt provides assistance for Ollama software users, specifically addressing command-line interface help topics.",
       "summary_approved": true,
       "title": "ollama.help",
-      "last_processed": "2025-11-20T13:33:13.773658"
+      "last_processed": "2025-11-20T14:25:13.930397"
     },
     "./sample_run.txt": {
       "hash": "sha256:ec2a200c009f6a682c4afd270dfd80fb145f492618fac09ae4201108de0ed76c",
-      "category": "Scripts",
-      "summary": "Command `dms-manager` and its script variants are unavailable in the current environment on a macOS system; however, DMS scripts provide functionalities such as scanning Doc/, converting images to text summaries using AI, interactive reviewing of changes, applying approved updates to index.html, automating workflows including scan, process, summary creation and application\u2026",
+      "category": "Workflows",
+      "summary": "Document Management System script and usage guide for managing directories with AI summaries.",
       "summary_approved": true,
       "title": "sample_run",
-      "last_processed": "2025-11-20T13:33:13.773663"
+      "last_processed": "2025-11-20T14:25:13.930402"
     },
     "./ollama show model batch file.txt": {
       "hash": "sha256:c8e985fd58669b089bbe8387ec47c4eaffb71ff13a6fa710118ddcb8a11f4b78",
-      "category": "Guides",
-      "summary": "Document summarizes various Ollama app instances across different platforms and versions, ranging from basic command prompts to advanced cloud setups with enhanced features like GPU acceleration. Instances are labeled as \"show\" or listed by the latest version suffix (\"-latest\"). Some entries specify specific coders (e.g., qwen2.5-coder) alongside platform and environment\u2026",
+      "category": "Models",
+      "summary": "Document lists various Ollama models for text-based tasks such as coding assistance and language understanding.",
       "summary_approved": true,
       "title": "ollama show model batch file",
-      "last_processed": "2025-11-20T13:33:13.773669"
+      "last_processed": "2025-11-20T14:25:13.930408"
+    },
+    "./md_outputs/IMG_4664 blah.txt": {
+      "hash": "sha256:1c9543f497d2981a7aafa55a0fcfefdb2f6c4be966f6c90246d9ceb473e554f7",
+      "category": "Models",
+      "summary": "This document details the installation and configuration process for using 'WY ven 2 end Coder', an AI coding model.",
+      "summary_approved": true,
+      "title": "IMG_4664 blah",
+      "last_processed": "2025-11-20T14:25:13.930413"
+    },
+    "./md_outputs/Ollama Download Commands for Recommended LLMs.md": {
+      "hash": "sha256:01bc0e7384befd124ce5128dbcccb12403580909c74792f70bc883d8056ac27c",
+      "category": "QuickRefs",
+      "summary": "Document provides ollama run commands for different LLMs categorized by their use case.",
+      "summary_approved": true,
+      "title": "Ollama Download Commands for Recommended LLMs",
+      "last_processed": "2025-11-20T14:25:13.930418"
+    },
+    "./ollama-show copy.bat": {
+      "hash": "sha256:4d7cc9928aef5c1f1b9c06f2d68c0c9b6793861aa63c789ae3b68845d1d22c9c",
+      "category": "Scripts",
+      "summary": "The document 'ollama-show copy.bat' appears to be a batch file intended for copying the contents of an Ollama show.",
+      "summary_approved": true,
+      "title": "ollama-show copy",
+      "last_processed": "2025-11-20T14:28:35.920790"
     },
     "./md_outputs/IMG_4666 copy.txt": {
       "hash": "sha256:3df6d7a9aed0b3307e37a7b6ed5c1acc5a340cee6a5d905a019d37f6201cb9e1",
-      "category": "Guides",
-      "summary": "Document discusses optimizing Ollama's speed by using a KV-cache or switching to Qwen 7B model. It offers the option to run local models on laptops for faster performance when needed, and guides users in adding any available AI model via OpvenAl AY format with Xe} @\u00ae commands.",
+      "category": "Workflows",
+      "summary": "Document provides strategies for improving Ollama's performance and instructions on adding custom models.",
       "summary_approved": true,
       "title": "IMG_4666 copy",
-      "last_processed": "2025-11-20T13:52:15.118371"
+      "last_processed": "2025-11-20T14:52:59.464691",
+      "readable_version": "./IMG_4666 copy.jpeg"
+    },
+    "./md_outputs/IMG_4666.jpeg.txt": {
+      "hash": "sha256:ac6d0cff33700975adc6d5e621e4687ba0932ac24b365656bc1e46fa360a43e7",
+      "category": "Workflows",
+      "summary": "The document outlines methods for improving remote Ollama performance and details how users can add models via OpvenAl AY.",
+      "summary_approved": true,
+      "title": "IMG_4666.jpeg",
+      "last_processed": "2025-11-20T14:52:59.464714",
+      "readable_version": "./IMG_4666.jpeg"
     }
   }
 }
@@ -615,32 +627,10 @@
         <div class="desc">Ollama on Windows 11 – Ultimate Performance Guide for RTX 3060: drivers, CUDA, Ollama settings, quantization, monitoring and model leaderboard.</div>
         <div class="tags small-muted">MD · Guides</div>
       </div>
-            </li>            <li class="file" data-path="./md_outputs/IMG_4664 blah.txt" data-link="./md_outputs/IMG_4664 blah.txt">
-      <div class="meta">
-        <div class="title"><a href="#./md_outputs/IMG_4664 blah.txt" class="file-link">IMG_4664 blah</a></div>
-        <div class="desc">1. Prominent models for inline coding include qwen2.5-coder (7b or 14b), codellama variants, and Starcoder2 (15b).
-
-2. Installation via bash commands involves pulling the ollama/awen2.5- model using `ollama pull awen2.5-`.
-
-3. Reference in configuration: Add `&quot;WY ven 2носи Кодера&quot;`, `&quot;model&quot;: &quot;ollama/awen2.5-&quot;` to your `continue.config.json` under the models array.</div>
-        <div class="tags small-muted">TXT · Guides</div>
-      </div>
             </li>            <li class="file" data-path="./md_outputs/IMG_4665.jpeg.txt" data-link="./md_outputs/IMG_4665.jpeg.txt">
       <div class="meta">
         <div class="title"><a href="#./md_outputs/IMG_4665.jpeg.txt" class="file-link">IMG_4665.jpeg</a></div>
-        <div class="desc">The document contains OCR-extracted text from an image discussing AI coding tasks and file management strategies.<br><small><a href="#./IMG_4665.jpeg" style="color:var(--accent-2)">📄 Original: IMG_4665</a></small></div>
-        <div class="tags small-muted">TXT · Guides</div>
-      </div>
-            </li>            <li class="file" data-path="./md_outputs/IMG_4666 copy.txt" data-link="./md_outputs/IMG_4666 copy.txt">
-      <div class="meta">
-        <div class="title"><a href="#./md_outputs/IMG_4666 copy.txt" class="file-link">IMG_4666 copy</a></div>
-        <div class="desc">Document discusses optimizing Ollama&#x27;s speed by using a KV-cache or switching to Qwen 7B model. It offers the option to run local models on laptops for faster performance when needed, and guides users in adding any available AI model via OpvenAl AY format with Xe} @® commands.</div>
-        <div class="tags small-muted">TXT · Guides</div>
-      </div>
-            </li>            <li class="file" data-path="./md_outputs/IMG_4666.jpeg.txt" data-link="./md_outputs/IMG_4666.jpeg.txt">
-      <div class="meta">
-        <div class="title"><a href="#./md_outputs/IMG_4666.jpeg.txt" class="file-link">IMG_4666.jpeg</a></div>
-        <div class="desc">In November 2025, user discusses speeding up their Ollama setup; options include configuring KV-cache or opting for the Qwen model. They can also add models on demand via OpvenAl AY and seek answers to questions using Xe}. For local improvements, users are advised to run small models directly from a…</div>
+        <div class="desc">The document contains OCR-extracted text from an image discussing AI coding tasks and file management strategies.<br><small><a href="#./IMG_4665.jpeg" style="color:var(--accent-2)">🖼️ View Image</a></small></div>
         <div class="tags small-muted">TXT · Guides</div>
       </div>
             </li>            <li class="file" data-path="./Image Generation Options for Open WebUI.pdf" data-link="./Image Generation Options for Open WebUI.pdf">
@@ -718,7 +708,7 @@
             </li>            <li class="file" data-path="./index.html" data-link="./index.html">
       <div class="meta">
         <div class="title"><a href="#./index.html" class="file-link">index</a></div>
-        <div class="desc">Technical Summary (57 words): This document is a style guide for project documentation, detailing UI components like header and sidebar layouts using CSS variables. It focuses on the left pane&#x27;s appearance with controls, search bar customization, file listing styles, and hover effects to enhance user interaction within the Project Docs…</div>
+        <div class="desc">The document appears to be an HTML file providing documentation for various components of &#x27;Project Docs&#x27;, likely including navigational elements and styling information.</div>
         <div class="tags small-muted">HTML · Guides</div>
       </div>
             </li>            <li class="file" data-path="./index b4 Claude.html" data-link="./index b4 Claude.html">
@@ -727,16 +717,10 @@
         <div class="desc">This document serves as an index for project documentation with sections on search controls and file viewer functionalities.</div>
         <div class="tags small-muted">HTML · Guides</div>
       </div>
-            </li>            <li class="file" data-path="./ollama show model batch file.txt" data-link="./ollama show model batch file.txt">
-      <div class="meta">
-        <div class="title"><a href="#./ollama show model batch file.txt" class="file-link">ollama show model batch file</a></div>
-        <div class="desc">Document summarizes various Ollama app instances across different platforms and versions, ranging from basic command prompts to advanced cloud setups with enhanced features like GPU acceleration. Instances are labeled as &quot;show&quot; or listed by the latest version suffix (&quot;-latest&quot;). Some entries specify specific coders (e.g., qwen2.5-coder) alongside platform and environment…</div>
-        <div class="tags small-muted">TXT · Guides</div>
-      </div>
             </li>            <li class="file" data-path="./ollama.help.txt" data-link="./ollama.help.txt">
       <div class="meta">
         <div class="title"><a href="#./ollama.help.txt" class="file-link">ollama.help</a></div>
-        <div class="desc">Labor George LaMaithe, a U-S graduate with CMOD studies, is featured in the classifieds section of Opencall (CMOD) job board for various labor opportunities within California&#x27;s construction industry including SEVRSOW jobs. Recent publications highlight his work on campus and beyond as part of this dynamic community seeking a skilled individual…</div>
+        <div class="desc">OllamaHelp.txt provides assistance for Ollama software users, specifically addressing command-line interface help topics.</div>
         <div class="tags small-muted">TXT · Guides</div>
       </div>
             </li>
@@ -785,20 +769,20 @@
             </li>            <li class="file" data-path="./md_outputs/Need more info on Tool Use.png.txt" data-link="./md_outputs/Need more info on Tool Use.png.txt">
       <div class="meta">
         <div class="title"><a href="#./md_outputs/Need more info on Tool Use.png.txt" class="file-link">Need more info on Tool Use.png</a></div>
-        <div class="desc">The document seeks additional information on tool use and mentions specific tools needing exact counts.<br><small><a href="#./Need more info on Tool Use.png" style="color:var(--accent-2)">📄 Original: Need more info on Tool Use</a></small></div>
+        <div class="desc">The document seeks additional information on tool use and mentions specific tools needing exact counts.<br><small><a href="#./Need more info on Tool Use.png" style="color:var(--accent-2)">🖼️ View Image</a></small></div>
         <div class="tags small-muted">TXT · QuickRefs</div>
+      </div>
+            </li>            <li class="file" data-path="./md_outputs/Ollama Download Commands for Recommended LLMs.md" data-link="./md_outputs/Ollama Download Commands for Recommended LLMs.md">
+      <div class="meta">
+        <div class="title"><a href="#./md_outputs/Ollama Download Commands for Recommended LLMs.md" class="file-link">Ollama Download Commands for Recommended LLMs</a></div>
+        <div class="desc">Document provides ollama run commands for different LLMs categorized by their use case.</div>
+        <div class="tags small-muted">MD · QuickRefs</div>
       </div>
             </li>            <li class="file" data-path="./Ollama Download Commands for Recommended LLMs.pdf" data-link="./Ollama Download Commands for Recommended LLMs.pdf">
       <div class="meta">
         <div class="title"><a href="#./Ollama Download Commands for Recommended LLMs.pdf" class="file-link">Ollama Download Commands for Recommended LLMs.pdf</a></div>
         <div class="desc">PDF with quick `ollama pull` commands — useful to reference when provisioning models.</div>
         <div class="tags small-muted">PDF · QuickRefs</div>
-      </div>
-            </li>            <li class="file" data-path="./md_outputs/Ollama Download Commands for Recommended LLMs.md" data-link="./md_outputs/Ollama Download Commands for Recommended LLMs.md">
-      <div class="meta">
-        <div class="title"><a href="#./md_outputs/Ollama Download Commands for Recommended LLMs.md" class="file-link">Ollama Download Commands for Recommended LLMs.pdf</a></div>
-        <div class="desc"></div>
-        <div class="tags small-muted">MD · QuickRefs</div>
       </div>
             </li>            <li class="file" data-path="./Quantization &amp; Context Tokens — A One‑Page Practical Guide.md" data-link="./Quantization &amp; Context Tokens — A One‑Page Practical Guide.md">
       <div class="meta">
@@ -815,19 +799,19 @@
             </li>            <li class="file" data-path="./md_outputs/aichat not working.png.txt" data-link="./md_outputs/aichat not working.png.txt">
       <div class="meta">
         <div class="title"><a href="#./md_outputs/aichat not working.png.txt" class="file-link">aichat not working.png</a></div>
-        <div class="desc">The document provides instructions for setting up the AI chatbot &#x27;aichat&#x27; using Ollama with specific model configurations and usage commands.<br><small><a href="#./aichat not working.png" style="color:var(--accent-2)">📄 Original: aichat not working</a></small></div>
+        <div class="desc">The document provides instructions for setting up the AI chatbot &#x27;aichat&#x27; using Ollama with specific model configurations and usage commands.<br><small><a href="#./aichat not working.png" style="color:var(--accent-2)">🖼️ View Image</a></small></div>
         <div class="tags small-muted">TXT · QuickRefs</div>
       </div>
             </li>            <li class="file" data-path="./md_outputs/what does local api server mean.png.txt" data-link="./md_outputs/what does local api server mean.png.txt">
       <div class="meta">
         <div class="title"><a href="#./md_outputs/what does local api server mean.png.txt" class="file-link">what does local api server mean.png</a></div>
-        <div class="desc">This document explains how to start a local HTTP server for OpenAl API using &#x27;aichat&#x27; models and redirect existing applications from standard APIs.<br><small><a href="#./what does local api server mean.png" style="color:var(--accent-2)">📄 Original: what does local api server mean</a></small></div>
+        <div class="desc">This document explains how to start a local HTTP server for OpenAl API using &#x27;aichat&#x27; models and redirect existing applications from standard APIs.<br><small><a href="#./what does local api server mean.png" style="color:var(--accent-2)">🖼️ View Image</a></small></div>
         <div class="tags small-muted">TXT · QuickRefs</div>
       </div>
             </li>            <li class="file" data-path="./md_outputs/what is a tool enabled prompt.png.txt" data-link="./md_outputs/what is a tool enabled prompt.png.txt">
       <div class="meta">
         <div class="title"><a href="#./md_outputs/what is a tool enabled prompt.png.txt" class="file-link">what is a tool enabled prompt.png</a></div>
-        <div class="desc">The document provides quick commands for testing Ollama models and instructions on adjusting settings upon the arrival of an RTX 3CTX.<br><small><a href="#./what is a tool enabled prompt.png" style="color:var(--accent-2)">📄 Original: what is a tool enabled prompt</a></small></div>
+        <div class="desc">The document provides quick commands for testing Ollama models and instructions on adjusting settings upon the arrival of an RTX 3CTX.<br><small><a href="#./what is a tool enabled prompt.png" style="color:var(--accent-2)">🖼️ View Image</a></small></div>
         <div class="tags small-muted">TXT · QuickRefs</div>
       </div>
             </li>
@@ -840,7 +824,7 @@
             <li class="file" data-path="./md_outputs/Day of rtx3040 models.png.txt" data-link="./md_outputs/Day of rtx3040 models.png.txt">
       <div class="meta">
         <div class="title"><a href="#./md_outputs/Day of rtx3040 models.png.txt" class="file-link">Day of rtx3040 models.png</a></div>
-        <div class="desc">This document provides instructions for setting up and testing RTX3060 models using Ollama on Windows 11.<br><small><a href="#./Day of rtx3040 models.png" style="color:var(--accent-2)">📄 Original: Day of rtx3040 models</a></small></div>
+        <div class="desc">This document provides instructions for setting up and testing RTX3060 models using Ollama on Windows 11.<br><small><a href="#./Day of rtx3040 models.png" style="color:var(--accent-2)">🖼️ View Image</a></small></div>
         <div class="tags small-muted">TXT · Models</div>
       </div>
             </li>            <li class="file" data-path="./GROK.recommended.llms.w.RTX.3060.txt" data-link="./GROK.recommended.llms.w.RTX.3060.txt">
@@ -855,10 +839,16 @@
         <div class="desc">Image-focused recommendations: ComfyUI + Flux (FP8) and the best local tools for image restoration/editing.</div>
         <div class="tags small-muted">TXT · Models</div>
       </div>
+            </li>            <li class="file" data-path="./md_outputs/IMG_4664 blah.txt" data-link="./md_outputs/IMG_4664 blah.txt">
+      <div class="meta">
+        <div class="title"><a href="#./md_outputs/IMG_4664 blah.txt" class="file-link">IMG_4664 blah</a></div>
+        <div class="desc">This document details the installation and configuration process for using &#x27;WY ven 2 end Coder&#x27;, an AI coding model.</div>
+        <div class="tags small-muted">TXT · Models</div>
+      </div>
             </li>            <li class="file" data-path="./md_outputs/IMG_4664.jpeg.txt" data-link="./md_outputs/IMG_4664.jpeg.txt">
       <div class="meta">
         <div class="title"><a href="#./md_outputs/IMG_4664.jpeg.txt" class="file-link">IMG_4664.jpeg</a></div>
-        <div class="desc">The document provides instructions for installing and referencing the &#x27;qwen2.5-coder&#x27; model using Ollama.<br><small><a href="#./IMG_4664.jpeg" style="color:var(--accent-2)">📄 Original: IMG_4664</a></small></div>
+        <div class="desc">The document provides instructions for installing and referencing the &#x27;qwen2.5-coder&#x27; model using Ollama.<br><small><a href="#./IMG_4664.jpeg" style="color:var(--accent-2)">🖼️ View Image</a></small></div>
         <div class="tags small-muted">TXT · Models</div>
       </div>
             </li>            <li class="file" data-path="./LLM Recommendations for Programming and Development.pdf" data-link="./LLM Recommendations for Programming and Development.pdf">
@@ -877,6 +867,12 @@
       <div class="meta">
         <div class="title"><a href="#./image descriptions.txt" class="file-link">image descriptions</a></div>
         <div class="desc">The document provides summaries for three images detailing the best open-source coding models and their configurations or usage tips.</div>
+        <div class="tags small-muted">TXT · Models</div>
+      </div>
+            </li>            <li class="file" data-path="./ollama show model batch file.txt" data-link="./ollama show model batch file.txt">
+      <div class="meta">
+        <div class="title"><a href="#./ollama show model batch file.txt" class="file-link">ollama show model batch file</a></div>
+        <div class="desc">Document lists various Ollama models for text-based tasks such as coding assistance and language understanding.</div>
         <div class="tags small-muted">TXT · Models</div>
       </div>
             </li>            <li class="file" data-path="./ollama website list - LLM.txt" data-link="./ollama website list - LLM.txt">
@@ -904,7 +900,19 @@
       <section class="category" data-category="Workflows">
         <h2>Workflows</h2>
         <ul class="files">
-            <li class="file" data-path="./Setting Up Real Image Manipulation on Your Local Server.pdf" data-link="./Setting Up Real Image Manipulation on Your Local Server.pdf">
+            <li class="file" data-path="./md_outputs/IMG_4666 copy.txt" data-link="./md_outputs/IMG_4666 copy.txt">
+      <div class="meta">
+        <div class="title"><a href="#./md_outputs/IMG_4666 copy.txt" class="file-link">IMG_4666 copy</a></div>
+        <div class="desc">Document provides strategies for improving Ollama&#x27;s performance and instructions on adding custom models.<br><small><a href="#./IMG_4666 copy.jpeg" style="color:var(--accent-2)">🖼️ View Image</a></small></div>
+        <div class="tags small-muted">TXT · Workflows</div>
+      </div>
+            </li>            <li class="file" data-path="./md_outputs/IMG_4666.jpeg.txt" data-link="./md_outputs/IMG_4666.jpeg.txt">
+      <div class="meta">
+        <div class="title"><a href="#./md_outputs/IMG_4666.jpeg.txt" class="file-link">IMG_4666.jpeg</a></div>
+        <div class="desc">The document outlines methods for improving remote Ollama performance and details how users can add models via OpvenAl AY.<br><small><a href="#./IMG_4666.jpeg" style="color:var(--accent-2)">🖼️ View Image</a></small></div>
+        <div class="tags small-muted">TXT · Workflows</div>
+      </div>
+            </li>            <li class="file" data-path="./Setting Up Real Image Manipulation on Your Local Server.pdf" data-link="./Setting Up Real Image Manipulation on Your Local Server.pdf">
       <div class="meta">
         <div class="title"><a href="#./Setting Up Real Image Manipulation on Your Local Server.pdf" class="file-link">New RTX 3060 Setup - SETTING_UP_REAL_IMAGE_MANIPULATION_LOCAL_SERVER.md</a></div>
         <div class="desc"></div>
@@ -931,7 +939,7 @@
             </li>            <li class="file" data-path="./md_outputs/Prep for 3060 - in the mean time as well.docx.txt" data-link="./md_outputs/Prep for 3060 - in the mean time as well.docx.txt">
       <div class="meta">
         <div class="title"><a href="#./md_outputs/Prep for 3060 - in the mean time as well.docx.txt" class="file-link">Prep for 3060 - in the mean time as well.docx</a></div>
-        <div class="desc">This document details the configuration for using various AI models on different hardware until an RTX 3060 GPU becomes available.<br><small><a href="#./Prep for 3060 - in the mean time as well.docx" style="color:var(--accent-2)">📄 Original: Prep for 3060 - in the mean time as well</a></small></div>
+        <div class="desc">This document details the configuration for using various AI models on different hardware until an RTX 3060 GPU becomes available.<br><small><a href="#./Prep for 3060 - in the mean time as well.docx" style="color:var(--accent-2)">📄 View Original</a></small></div>
         <div class="tags small-muted">TXT · Workflows</div>
       </div>
             </li>            <li class="file" data-path="./RTX 3060 Setup Guide - Complete AI Coding Workflow.pdf" data-link="./RTX 3060 Setup Guide - Complete AI Coding Workflow.pdf">
@@ -939,6 +947,12 @@
         <div class="title"><a href="#./RTX 3060 Setup Guide - Complete AI Coding Workflow.pdf" class="file-link">RTX 3060 Setup Guide - Complete AI Coding Workflow (md)</a></div>
         <div class="desc"></div>
         <div class="tags small-muted">PDF · Workflows</div>
+      </div>
+            </li>            <li class="file" data-path="./sample_run.txt" data-link="./sample_run.txt">
+      <div class="meta">
+        <div class="title"><a href="#./sample_run.txt" class="file-link">sample_run</a></div>
+        <div class="desc">Document Management System script and usage guide for managing directories with AI summaries.</div>
+        <div class="tags small-muted">TXT · Workflows</div>
       </div>
             </li>
         </ul>
@@ -953,17 +967,17 @@
         <div class="desc">Short list of experiments and models to try next using your local setup.</div>
         <div class="tags small-muted">TXT · Scripts</div>
       </div>
+            </li>            <li class="file" data-path="./ollama-show copy.bat" data-link="./ollama-show copy.bat">
+      <div class="meta">
+        <div class="title"><a href="#./ollama-show copy.bat" class="file-link">ollama-show copy</a></div>
+        <div class="desc">The document &#x27;ollama-show copy.bat&#x27; appears to be a batch file intended for copying the contents of an Ollama show.</div>
+        <div class="tags small-muted">BAT · Scripts</div>
+      </div>
             </li>            <li class="file" data-path="./ollama-show.bat" data-link="./ollama-show.bat">
       <div class="meta">
         <div class="title"><a href="#./ollama-show.bat" class="file-link">ollama-show.bat</a></div>
         <div class="desc">Windows batch to run a set of `ollama show` commands quickly.</div>
         <div class="tags small-muted">BAT · Scripts</div>
-      </div>
-            </li>            <li class="file" data-path="./sample_run.txt" data-link="./sample_run.txt">
-      <div class="meta">
-        <div class="title"><a href="#./sample_run.txt" class="file-link">sample_run</a></div>
-        <div class="desc">Command `dms-manager` and its script variants are unavailable in the current environment on a macOS system; however, DMS scripts provide functionalities such as scanning Doc/, converting images to text summaries using AI, interactive reviewing of changes, applying approved updates to index.html, automating workflows including scan, process, summary creation and application…</div>
-        <div class="tags small-muted">TXT · Scripts</div>
       </div>
             </li>
         </ul>
@@ -1004,9 +1018,18 @@
     }
 
     function openFilePreview(liElement) {
-      const path = liElement.dataset.path;
-      const pdf = liElement.dataset.pdf || '';
-      const title = liElement.querySelector('.title')?.innerText || 'Document';
+      let path, title;
+      
+      // Handle both element and string path inputs
+      if(typeof liElement === 'string') {
+        path = liElement;
+        title = path.split('/').pop().split('.')[0];
+      } else {
+        path = liElement.dataset.path;
+        title = liElement.querySelector('.title')?.innerText || 'Document';
+      }
+      
+      const pdf = (liElement.dataset?.pdf || '');
       
       viewerTitle.innerText = title;
       mdViewer.style.display = 'none';
@@ -1042,6 +1065,13 @@
       if(e === 'docx' || e === 'doc'){
         rawViewer.style.display = 'block';
         rawViewer.innerHTML = `This is a binary Office file. <a class="inline-link" href="${path}" target="_blank" rel="noopener">Open ${path}</a>`;
+        return;
+      }
+      
+      // Handle images
+      if(['png','jpg','jpeg','gif','webp','bmp','svg'].includes(e)){
+        rawViewer.style.display = 'block';
+        rawViewer.innerHTML = `<img src="${path}" style="max-width:100%;max-height:600px;border-radius:8px;" alt="${title}">`;
         return;
       }
       
@@ -1089,8 +1119,21 @@
           return li.dataset.path===hash || li.dataset.pdf===hash || li.querySelector('.title').innerText===hash;
         });
         if(el) openFilePreview(el);
+        else if(hash) openFilePreview(hash);  // If no li found, try opening the path directly
       }
       filterFiles('');
+    });
+
+    // Handle hash changes (when clicking image/file links)
+    window.addEventListener('hashchange', ()=>{
+      const hash = decodeURIComponent(location.hash.replace(/^#/,''));
+      if(hash){
+        const el = Array.from(document.querySelectorAll('li.file')).find(li=>{
+          return li.dataset.path===hash || li.dataset.pdf===hash || li.querySelector('.title').innerText===hash;
+        });
+        if(el) openFilePreview(el);
+        else if(hash) openFilePreview(hash);  // If no li found, try opening the path directly
+      }
     });
 
     window.addEventListener('keydown', (e)=>{

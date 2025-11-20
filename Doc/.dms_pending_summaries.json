@@ -1,0 +1,43 @@
+{
+  "timestamp": "2025-11-20T14:52:34.533499",
+  "summaries": [
+    {
+      "file": {
+        "path": "./md_outputs/IMG_4666 copy.txt",
+        "hash": "sha256:3df6d7a9aed0b3307e37a7b6ed5c1acc5a340cee6a5d905a019d37f6201cb9e1",
+        "size": 334,
+        "readable_version": "./IMG_4666 copy.jpeg"
+      },
+      "summary": "Document provides strategies for improving Ollama's performance and instructions on adding custom models.",
+      "category": "Workflows",
+      "is_new_category": false,
+      "title": "IMG_4666 copy",
+      "timestamp": "2025-11-20T14:52:16.593921"
+    },
+    {
+      "file": {
+        "path": "./md_outputs/IMG_4666.jpeg.txt",
+        "hash": "sha256:ac6d0cff33700975adc6d5e621e4687ba0932ac24b365656bc1e46fa360a43e7",
+        "size": 428,
+        "readable_version": "./IMG_4666.jpeg"
+      },
+      "summary": "The document outlines methods for improving remote Ollama performance and details how users can add models via OpvenAl AY.",
+      "category": "Workflows",
+      "is_new_category": false,
+      "title": "IMG_4666.jpeg",
+      "timestamp": "2025-11-20T14:52:23.409587"
+    },
+    {
+      "file": {
+        "path": "./index.html",
+        "hash": "",
+        "size": 0
+      },
+      "summary": "The document appears to be an HTML file providing documentation for various components of 'Project Docs', likely including navigational elements and styling information.",
+      "category": "Guides",
+      "is_new_category": false,
+      "title": "index",
+      "timestamp": "2025-11-20T14:52:34.533432"
+    }
+  ]
+}
