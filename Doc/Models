@@ -1,0 +1,25 @@
+ ollama ls
+NAME                        ID              SIZE      MODIFIED
+llava-llama3:8b             44c161b1f465    5.5 GB    9 hours ago
+phi4:14b                    ac896e5b8b34    9.1 GB    9 hours ago
+deepseek-r1:14b             c333b7232bdb    9.0 GB    9 hours ago
+qwen2.5:14b                 7cdf5a0187d5    9.0 GB    9 hours ago
+codestral:22b               0898a8b286d5    12 GB     9 hours ago
+codellama:13b-python        ac95ebf45ada    7.4 GB    10 hours ago
+qwen2.5-coder:7b            dae161e27b0e    4.7 GB    10 hours ago
+deepseek-coder-v2:16b       63fb193b3a9b    8.9 GB    10 hours ago
+qwen2.5-coder:14b           9ec8897f747e    9.0 GB    10 hours ago
+llama3.1:latest             46e0c10c039e    4.9 GB    13 hours ago
+qwen2.5:7b                  845dbda0ea48    4.7 GB    4 days ago
+phi3:mini                   4f2222927938    2.2 GB    10 days ago
+gpt-oss:120b-cloud          569662207105    -         11 days ago
+qwen3-coder:480b-cloud      e30e45586389    -         11 days ago
+deepseek-v3.1:671b-cloud    d3749919e45f    -         11 days ago
+llava:13b                   0d0eb4d7f485    8.0 GB    11 days ago
+kimi-k2-thinking:cloud      9752ffb77f53    -         11 days ago
+minimax-m2:cloud            698ab6d56142    -         11 days ago
+glm-4.6:cloud               05277b76269f    -         11 days ago
+deepseek-r1:latest          6995872bfe4c    5.2 GB    12 days ago
+qwen3-coder:latest          06c1097efce0    18 GB     12 days ago
+mistral:latest              6577803aa9a0    4.4 GB    12 days ago
+gemma3:4b                   a2af6cc3eb7f    3.3 GB    12 days ago

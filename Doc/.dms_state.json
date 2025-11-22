@@ -1,7 +1,7 @@
 {
   "metadata": {
     "last_scan": "2025-11-20T07:48:20.618243",
-    "last_apply": "2025-11-21T14:12:17.385611",
+    "last_apply": "2025-11-22T15:41:50.307063",
     "migrated_from_embedded": true,
     "migration_date": "2025-11-20T11:45:24.485598"
   },
@@ -445,6 +445,69 @@
       "last_processed": "2025-11-21T14:12:17.385578",
       "file_mtime": "2025-11-19T11:42:56.340456",
       "readable_version": "./md_outputs/IMG_4665.txt"
+    },
+    "./Models for Python coding.docx": {
+      "hash": "sha256:2fe9ef5eb2501cf8d524af9625252676018b5019263df7978b2e7721305c8934",
+      "category": "Models",
+      "summary": "This document details various model structures for Python applications using classes and inheritance.",
+      "summary_approved": true,
+      "title": "Models for Python coding",
+      "last_processed": "2025-11-21T18:39:28.935848",
+      "file_mtime": "2025-11-21T18:35:59.697177"
+    },
+    "./Ollama Model Cheat Sheet (Local LLMs).md": {
+      "hash": "sha256:b1ff78b395a651732686aeaf928d7de1f6df4acf669fee9237da0a6d83f8f8b5",
+      "category": "Models",
+      "summary": "Cheat sheet listing and comparing Ollama LLMs for local coding tasks with performance metrics.",
+      "summary_approved": true,
+      "title": "Ollama Model Cheat Sheet (Local LLMs)",
+      "last_processed": "2025-11-22T01:11:31.562203",
+      "file_mtime": "2025-11-22T01:04:42.248758"
+    },
+    "./Ollama Model Cheat Sheet (Local LLMs) pdf version.pdf": {
+      "hash": "sha256:92b7e2944a6e7ece64fec4924aad5640a7912270ead3bafad3b56cd8f130ac2e",
+      "category": "Guides",
+      "summary": "The document provides an overview of setting up and using Ollama for local Large Language Models (LLMs), including installation instructions and system requirements.",
+      "summary_approved": true,
+      "title": "Ollama Model Cheat Sheet (Local LLMs) pdf version",
+      "last_processed": "2025-11-22T01:11:31.562237",
+      "file_mtime": "2025-11-21T23:43:14.213875"
+    },
+    "./OLLAMA_GUIDE.md": {
+      "hash": "sha256:fa205c39b047db191ac830eea0bde8a4435e37b0faf65f14d5da2be1efddd4e9",
+      "category": "Guides",
+      "summary": "The document outlines different Ollama models categorized by their intended use: coding, chat, and special tasks like math/reasoning or image processing, providing guidance on which model to select based on specific needs.",
+      "summary_approved": true,
+      "title": "OLLAMA_GUIDE",
+      "last_processed": "2025-11-22T15:41:50.306889",
+      "file_mtime": "2025-11-22T15:08:35.400316"
+    },
+    "./MODELS_recommendations_by_claude_summary.txt": {
+      "hash": "sha256:66205d8879cf2641fcd1ebe84179fb6b1c2c6ff43d404e18a05052e46855f7a8",
+      "category": "Models",
+      "summary": "The document lists AI models categorized for coding, chat, and specialized tasks like math and image analysis, providing recommendations based on their strengths.",
+      "summary_approved": true,
+      "title": "MODELS_recommendations_by_claude_summary",
+      "last_processed": "2025-11-22T15:41:50.307011",
+      "file_mtime": "2025-11-22T15:06:34.083045"
+    },
+    "./MODELS_recommendations_by_claude.md": {
+      "hash": "sha256:a1585a9c8065adda8befe97b0a50e199e60e445c90a0a7ad76458839b73d4b26",
+      "category": "Models",
+      "summary": "The document provides model recommendations for optimization by removing specific models and suggesting alternatives. It categorizes models into coding, general chat, and specialized use cases while offering guidance on using them efficiently.",
+      "summary_approved": true,
+      "title": "MODELS_recommendations_by_claude",
+      "last_processed": "2025-11-22T15:41:50.307029",
+      "file_mtime": "2025-11-22T15:03:33.061419"
+    },
+    "./Models": {
+      "hash": "sha256:213446677619762d8dc5c2d1aa136f87d4a01404687b530ce08312f26b6e8413",
+      "category": "Models",
+      "summary": "The document titled 'Models' contains binary data, likely representing machine learning models or statistical algorithms for predictive analysis and decision-making.",
+      "summary_approved": true,
+      "title": "Models",
+      "last_processed": "2025-11-22T15:41:50.307042",
+      "file_mtime": "2025-11-22T12:27:15.464196"
     }
   }
 }

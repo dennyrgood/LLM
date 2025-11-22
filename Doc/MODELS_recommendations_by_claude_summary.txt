@@ -1,0 +1,13 @@
+=== CODING ===
+qwen2.5-coder:14b      → Fast coding, daily use
+codestral:22b          → Quality code, production, tkinter tasks
+deepseek-coder-v2:16b  → Complex algorithms, hard problems
+
+=== CHAT ===
+qwen2.5:14b           → General conversation, writing
+phi4:14b              → Fast all-rounder backup
+
+=== SPECIAL ===
+deepseek-r1:14b       → Math, reasoning, logic
+llava-llama3:8b       → Image analysis, screenshots
+
