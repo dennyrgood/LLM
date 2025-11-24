@@ -1,0 +1,19 @@
+Ordownloadfrom:
+
+‘Setup with Ollama: bash
+
+First run creates config
+
+aichat
+
+Edit config file
+
+vim ~).config/aichat/config.yamI
+Config for Ollama: yaml
+mode: ollama:llama3.2:3b clients:
+* type: ollama api_base: §1(p)//o0s/)0s'-12/ # Or your Windows IP models:
+© name: llama3.2:1b
+© name: llama3.2:3b
+© name: mistral
+
+Usage (Just Like Copilot CLI): bash

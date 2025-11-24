@@ -1,0 +1,16 @@
+The Fix:
+You need to explicitly use Python 3.11's pip:
+
+cmd
+
+cd D:\Misc\Python311
+python.exe -m pip install chardet
+
+Or the full path version:
+
+cmd
+
+D:\Misc\Python311\python.exe -m pip install chardet
+
+This will ensure chardet gets installed into the correct Python 3.11 environment that your
+NSSM service is actually using.

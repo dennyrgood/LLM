@@ -1,0 +1,17 @@
+Recommendations
+Given your RTX 3060 (12GB VRAM) and needs:
+
+1. Keep using qwen2.5:14b - It's clearly working well for you and runs efficiently at 14B
+parameters
+
+2, Use codestral:22b when accuracy matters more than speed - For complex refactoring or
+critical code
+
+3, Consider trying these alternatives if you want to experiment:
+
+* deepseek-coder-v2:1 6b - You already have it! It's generally well-regarded and
+might outperform qwen2.5-coder
+
+* codegemma:7b - Smaller, faster, Google's code model
+
+* starcoder2:15b - Strong code understanding

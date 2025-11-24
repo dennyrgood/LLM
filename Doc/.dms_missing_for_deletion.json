@@ -1,0 +1,25 @@
+{
+  "timestamp": "2025-11-24T18:22:24.059497",
+  "files": [
+    {
+      "path": "./ollama.help.txt",
+      "was_category": "Guides"
+    },
+    {
+      "path": "./IMG_4666.jpeg",
+      "was_category": "Workflows"
+    },
+    {
+      "path": "./IMG_4664.jpeg",
+      "was_category": "Models"
+    },
+    {
+      "path": "./IMG_4665.jpeg",
+      "was_category": "Workflows"
+    },
+    {
+      "path": "./Models",
+      "was_category": "Models"
+    }
+  ]
+}

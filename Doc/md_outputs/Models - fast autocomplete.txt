@@ -1,0 +1,19 @@
+15:58 a 5G GD
+= ChatGPT (G os
+Example setup:
+
+Fast autocomplete /
+suggestions:
+-qwen2.5-coder:7b
+-ormistral-small
+Heavy reasoning / multi-file
+refactor:
+-qwen2.5-coder:32b
+-llama3.1:70b
+
+- or deepseek-—coder-v2
+
+4. Tell Continue to
+Send File “ sntext
+
++ Ask anything Q @®

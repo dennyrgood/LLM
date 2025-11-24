@@ -1,0 +1,23 @@
+16:00 a 56
+
+= ChatGPT G
+
+7. Fast localhost
+vs. Cloud Ollama
+
+lf your remote Ollama feels slow:
+
+Speed options:
+- Enable KV-cache in config
+
+- Move to Qwen 7B (fastest
+quality/capability balance)
+
+- Run a small local model on the
+laptop and switch on demand
+
+8. You Can Now
+Add Any Model via
+OpvenAl AY, Format
+
++ Ask anything Xe} @®

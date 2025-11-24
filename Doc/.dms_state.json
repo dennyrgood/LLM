@@ -1,7 +1,7 @@
 {
   "metadata": {
     "last_scan": "2025-11-20T07:48:20.618243",
-    "last_apply": "2025-11-22T15:41:50.307063",
+    "last_apply": "2025-11-24T18:30:27.756769",
     "migrated_from_embedded": true,
     "migration_date": "2025-11-20T11:45:24.485598"
   },
@@ -32,15 +32,6 @@
       "last_processed": "2025-11-19T10:46:04.749222",
       "file_mtime": "2025-11-16T23:09:46.582449"
     },
-    "./Setting Up Real Image Manipulation on Your Local Server.pdf": {
-      "hash": "sha256:f9ba490eee11c5bd1c08fe604d677712ac46127ff3b4580bf3c0b19641080937",
-      "category": "Workflows",
-      "summary": "",
-      "summary_approved": true,
-      "title": "New RTX 3060 Setup - SETTING_UP_REAL_IMAGE_MANIPULATION_LOCAL_SERVER.md",
-      "last_processed": "2025-11-19T10:46:04.750696",
-      "file_mtime": "2025-11-16T23:09:46.588791"
-    },
     "./Using 1040 until 3060 Gets Here.txt": {
       "hash": "sha256:5532031a61034cb24173bdc24da086622fb5286ca7ab2def5c0f01f8ac4dce5d",
       "category": "Guides",
@@ -58,69 +49,6 @@
       "title": "Claude session - started the whole rabbit trail of hosting my own LLM.md",
       "last_processed": "2025-11-19T10:46:04.751906",
       "file_mtime": "2025-11-18T01:35:49.929046"
-    },
-    "./Prep for 3060 - in the mean time as well.txt": {
-      "hash": "sha256:ab50fc09893389a733eb1bd2df6f5b3a58c90d3e819bded65cc4c8427c04243f",
-      "category": "Guides",
-      "summary": "Preparation checklist and setup notes saved as plain text (converted from DOCX). Treat as a Guide; convert to MD for full searchability.",
-      "summary_approved": true,
-      "title": "Prep for 3060 - in the mean time as well",
-      "last_processed": "2025-11-19T10:46:04.752441",
-      "file_mtime": "2025-11-19T03:03:28.012552"
-    },
-    "./RTX 3060 Setup Guide - Complete AI Coding Workflow.pdf": {
-      "hash": "sha256:ec57cf0a75712d023f2fefcd7e923a2bb0b3e86c0a81830da3e18f6821aa51e7",
-      "category": "Workflows",
-      "summary": "",
-      "summary_approved": true,
-      "title": "RTX 3060 Setup Guide - Complete AI Coding Workflow (md)",
-      "last_processed": "2025-11-19T10:46:04.755420",
-      "file_mtime": "2025-11-18T08:25:56.108167"
-    },
-    "./Open WebUI Management Guide.pdf": {
-      "hash": "sha256:48b93f0e708f7210ce98270f435ec182060b12a9b2841cfbb0befad0e78b9a48",
-      "category": "Guides",
-      "summary": "",
-      "summary_approved": true,
-      "title": "Open WebUI Management Guide (md)",
-      "last_processed": "2025-11-19T10:46:04.757070",
-      "file_mtime": "2025-11-16T18:51:08.182925"
-    },
-    "./AIChat CLI_ Capabilities and User Guide Summary.pdf": {
-      "hash": "sha256:b26eaf339d07393e6acc8a4a8db8fa09b92572a5b9d17e961804efe4e0541a47",
-      "category": "Guides",
-      "summary": "",
-      "summary_approved": true,
-      "title": "AIChat CLI: Capabilities and User Guide Summary (md)",
-      "last_processed": "2025-11-19T10:46:04.758420",
-      "file_mtime": "2025-11-10T00:11:20.228661"
-    },
-    "./Image Generation Options for Open WebUI.pdf": {
-      "hash": "sha256:14bf125afa91e2cf5780e1c8236afaaab6d3a9f521e8b54f513b5691480c4d39",
-      "category": "Guides",
-      "summary": "image gen",
-      "summary_approved": true,
-      "title": "Image Generation Options for Open WebUI",
-      "last_processed": "2025-11-19T10:46:04.759579",
-      "file_mtime": "2025-11-16T19:04:31.774265"
-    },
-    "./Rtx3060 Supplemental Improvements.pdf": {
-      "hash": "sha256:c21729399953589884770d51e0c79a89a217518b45e396bad3b85adf3e5c0b61",
-      "category": "Guides",
-      "summary": "",
-      "summary_approved": true,
-      "title": "Rtx3060 Supplemental Improvements",
-      "last_processed": "2025-11-19T10:46:04.760708",
-      "file_mtime": "2025-11-18T08:32:49.109219"
-    },
-    "./LLM Recommendations for Programming and Development.pdf": {
-      "hash": "sha256:04d1cdbfcf361d8a06ad8ff45b627ba7cee3ae2ab32299071edab1d921eb4779",
-      "category": "Models",
-      "summary": "",
-      "summary_approved": true,
-      "title": "LLM Recommendations for Programming and Development",
-      "last_processed": "2025-11-19T10:46:04.768018",
-      "file_mtime": "2025-11-10T00:11:20.229064"
     },
     "./Quantization & Context Tokens \u2014 A One\u2011Page Practical Guide.md": {
       "hash": "sha256:a66c9cd80237456b86492c9a88daeb69b5cca69ed1da8d02a3541bf44dee092f",
@@ -149,15 +77,6 @@
       "last_processed": "2025-11-19T10:46:04.762464",
       "file_mtime": "2025-11-18T01:35:49.929203"
     },
-    "./Ollama Download Commands for Recommended LLMs.pdf": {
-      "hash": "sha256:5ffe3eebb971f1cdeac71f7aced7c341b578280c7c651b8c85dd9beb432a34cb",
-      "category": "QuickRefs",
-      "summary": "PDF with quick `ollama pull` commands \u2014 useful to reference when provisioning models.",
-      "summary_approved": true,
-      "title": "Ollama Download Commands for Recommended LLMs.pdf",
-      "last_processed": "2025-11-19T10:46:04.762827",
-      "file_mtime": "2025-11-10T00:11:20.229343"
-    },
     "./Doc_INDEX_Version6.md": {
       "hash": "sha256:9d0aee3859fdd0fd162bb6279aff6dc830eb108c1e2208472140b00187a43a23",
       "category": "QuickRefs",
@@ -166,24 +85,6 @@
       "title": "Doc_INDEX_Version6",
       "last_processed": "2025-11-19T10:46:04.763009",
       "file_mtime": "2025-11-19T00:23:19.434865"
-    },
-    "./LLM Infrastructure Cheat Sheet (Updated).pdf": {
-      "hash": "sha256:14cc6e1554b911c0530ea4a92429de3b5b07289ba5396f1e35973c90f463db62",
-      "category": "QuickRefs",
-      "summary": "",
-      "summary_approved": true,
-      "title": "LLM Infrastructure Cheat Sheet (Updated)",
-      "last_processed": "2025-11-19T10:46:04.765305",
-      "file_mtime": "2025-11-12T01:24:03.659621"
-    },
-    "./LLM Infrastructure Cheat Sheet_old.pdf": {
-      "hash": "sha256:aabfcb7a6ce319541e74320e2f20d7d7588f42c9a2a0077d5d1e64737360b302",
-      "category": "QuickRefs",
-      "summary": "",
-      "summary_approved": true,
-      "title": "LLM Infrastructure Cheat Sheet_old",
-      "last_processed": "2025-11-19T10:46:04.765125",
-      "file_mtime": "2025-11-11T02:07:29.296672"
     },
     "./Ollama Models as of 2025 11 18.txt": {
       "hash": "sha256:47c565ec0da3735f4ae389eeafa30f0c5b979bea206858395bde5ca73743e19e",
@@ -248,15 +149,6 @@
       "last_processed": "2025-11-19T10:46:04.768197",
       "file_mtime": "2025-11-18T01:35:49.929377"
     },
-    "./Open WebUI Installation Guide for Windows 11.pdf": {
-      "hash": "sha256:7540c26a3429540e750f2ca96cf6dc2ecb315acab9444ea77ed7e6d4cd1163fd",
-      "category": "Workflows",
-      "summary": "Installer and service notes; refer to md_outputs/ if converted for management commands.",
-      "summary_approved": true,
-      "title": "Open WebUI Installation Guide for Windows 11.pdf",
-      "last_processed": "2025-11-19T10:46:04.768873",
-      "file_mtime": "2025-11-16T18:53:00.302245"
-    },
     "./What to Try Next.txt": {
       "hash": "sha256:394b6abc8707b81d767eb60596197fe551e79650115075914b69bd49a9b6b965",
       "category": "Scripts",
@@ -275,15 +167,6 @@
       "last_processed": "2025-11-19T10:46:04.769780",
       "file_mtime": "2025-11-18T22:42:20.014192"
     },
-    "./index b4 Claude.html": {
-      "hash": "sha256:ee62453aa4217d1602331401ba0f68670827a10045952216d67d0ca2e1e4ae17",
-      "category": "Guides",
-      "summary": "This document serves as an index for project documentation with sections on search controls and file viewer functionalities.",
-      "summary_approved": true,
-      "title": "index b4 Claude",
-      "last_processed": "2025-11-19T23:16:56.795297",
-      "file_mtime": "2025-11-19T11:42:56.342380"
-    },
     "./image descriptions.txt": {
       "hash": "sha256:1e50efa1034914cf1ca1716e3a49a3ae2b6a947a7c7c92bcbc8ef9544968306d",
       "category": "Models",
@@ -296,29 +179,11 @@
     "./index.html": {
       "hash": "",
       "category": "Guides",
-      "summary": "This document appears to be an HTML file for a project documentation index focusing on code structure and navigation.",
+      "summary": "An HTML document serving as an index for project documentation, featuring a styled layout with navigation elements and search functionality.",
       "summary_approved": true,
       "title": "index",
-      "last_processed": "2025-11-21T14:12:17.385590",
-      "file_mtime": "2025-11-20T15:50:05.511248"
-    },
-    "./ollama.help.txt": {
-      "hash": "sha256:b87f997e8a821f4f919028e89404fecfa3c0d251a6ea38d5625eb1e19d852beb",
-      "category": "Guides",
-      "summary": "OllamaHelp.txt provides assistance for Ollama software users, specifically addressing command-line interface help topics.",
-      "summary_approved": true,
-      "title": "ollama.help",
-      "last_processed": "2025-11-20T14:25:13.930397",
-      "file_mtime": "2025-11-19T03:03:28.015349"
-    },
-    "./sample_run.txt": {
-      "hash": "sha256:ec2a200c009f6a682c4afd270dfd80fb145f492618fac09ae4201108de0ed76c",
-      "category": "Workflows",
-      "summary": "Document Management System script and usage guide for managing directories with AI summaries.",
-      "summary_approved": true,
-      "title": "sample_run",
-      "last_processed": "2025-11-20T14:25:13.930402",
-      "file_mtime": "2025-11-20T07:51:27.647507"
+      "last_processed": "2025-11-24T17:57:30.660832",
+      "file_mtime": "2025-11-24T17:56:19.438508"
     },
     "./ollama show model batch file.txt": {
       "hash": "sha256:c8e985fd58669b089bbe8387ec47c4eaffb71ff13a6fa710118ddcb8a11f4b78",
@@ -328,44 +193,6 @@
       "title": "ollama show model batch file",
       "last_processed": "2025-11-20T14:25:13.930408",
       "file_mtime": "2025-11-19T00:23:19.428908"
-    },
-    "./ollama-show copy.bat": {
-      "hash": "sha256:4d7cc9928aef5c1f1b9c06f2d68c0c9b6793861aa63c789ae3b68845d1d22c9c",
-      "category": "Scripts",
-      "summary": "The document 'ollama-show copy.bat' appears to be a batch file intended for copying the contents of an Ollama show.",
-      "summary_approved": true,
-      "title": "ollama-show copy",
-      "last_processed": "2025-11-20T14:28:35.920790",
-      "file_mtime": "2025-11-18T22:42:20.014192"
-    },
-    "./ollama-show copy 2.bat": {
-      "hash": "sha256:4d7cc9928aef5c1f1b9c06f2d68c0c9b6793861aa63c789ae3b68845d1d22c9c",
-      "category": "Scripts",
-      "summary": "The document 'ollama-show copy 2.bat' appears to be a batch file designed for displaying or interacting with the Ollama platform in some capacity.",
-      "summary_approved": true,
-      "title": "ollama-show copy 2",
-      "last_processed": "2025-11-20T15:50:05.467449",
-      "file_mtime": "2025-11-18T22:42:20.014192"
-    },
-    "./IMG_4666 copy.jpeg": {
-      "hash": "sha256:9de09295783cecbb945eec528ecb4240c9b0f3d43be4886c9920d294e12af505",
-      "category": "Workflows",
-      "summary": "This document discusses methods for improving the speed of Ollama locally versus using cloud services and outlines options like KV-cache or smaller local models.",
-      "summary_approved": true,
-      "title": "IMG_4666 copy",
-      "last_processed": "2025-11-21T14:12:17.385421",
-      "file_mtime": "2025-11-19T11:42:56.342038",
-      "readable_version": "./md_outputs/IMG_4666 copy.txt"
-    },
-    "./IMG_4666.jpeg": {
-      "hash": "sha256:9de09295783cecbb945eec528ecb4240c9b0f3d43be4886c9920d294e12af505",
-      "category": "Workflows",
-      "summary": "This document provides advice for improving Ollama's local speed and instructions on adding various models via OpvenAl AY.",
-      "summary_approved": true,
-      "title": "IMG_4666",
-      "last_processed": "2025-11-21T14:12:17.385458",
-      "file_mtime": "2025-11-19T11:42:56.342038",
-      "readable_version": "./md_outputs/IMG_4666.txt"
     },
     "./what does local api server mean.png": {
       "hash": "sha256:79f93eb74813fcaf5e2703690c95c62a2bf2cb6d98aa7a770e10e1b1ddd87dab",
@@ -407,15 +234,6 @@
       "file_mtime": "2025-11-19T15:07:46.594118",
       "readable_version": "./md_outputs/Day of rtx3040 models.txt"
     },
-    "./Prep for 3060 - in the mean time as well.docx": {
-      "hash": "sha256:457563449e2ef0363c83849d155318690f0d577f73a57c9ddf83e9154db15891",
-      "category": "Guides",
-      "summary": "This document appears to be preparatory material for the M3060 model of CAD software, likely guiding users through setup and configuration steps.",
-      "summary_approved": true,
-      "title": "Prep for 3060 - in the mean time as well",
-      "last_processed": "2025-11-21T14:12:17.385541",
-      "file_mtime": "2025-11-18T22:42:20.010381"
-    },
     "./aichat not working.png": {
       "hash": "sha256:c843169101f5be7c48d5d991a962d6910aaa569d9cbb0b91af74209a6f064246",
       "category": "Guides",
@@ -425,53 +243,6 @@
       "last_processed": "2025-11-21T14:12:17.385552",
       "file_mtime": "2025-11-19T15:01:04.172607",
       "readable_version": "./md_outputs/aichat not working.txt"
-    },
-    "./IMG_4664.jpeg": {
-      "hash": "sha256:15c3b08105dc9b6c1e1d252b8ff83b4d5555e8ba358e4ca8bcd75efc5674bc7d",
-      "category": "Models",
-      "summary": "A guide for installing and referencing various AI coding models via Ollama using ChatGPT commands.",
-      "summary_approved": true,
-      "title": "IMG_4664",
-      "last_processed": "2025-11-21T14:12:17.385566",
-      "file_mtime": "2025-11-19T11:42:56.339209",
-      "readable_version": "./md_outputs/IMG_4664.txt"
-    },
-    "./IMG_4665.jpeg": {
-      "hash": "sha256:e2b2ff6cec8523bbd5fd4f3997b30b9f2cbd03fc1cd43fdd86d9495aab5779df",
-      "category": "Workflows",
-      "summary": "The document contains OCR extracted text from IMG_4665 discussing various coding tasks and refactorings.",
-      "summary_approved": true,
-      "title": "IMG_4665",
-      "last_processed": "2025-11-21T14:12:17.385578",
-      "file_mtime": "2025-11-19T11:42:56.340456",
-      "readable_version": "./md_outputs/IMG_4665.txt"
-    },
-    "./Models for Python coding.docx": {
-      "hash": "sha256:2fe9ef5eb2501cf8d524af9625252676018b5019263df7978b2e7721305c8934",
-      "category": "Models",
-      "summary": "This document details various model structures for Python applications using classes and inheritance.",
-      "summary_approved": true,
-      "title": "Models for Python coding",
-      "last_processed": "2025-11-21T18:39:28.935848",
-      "file_mtime": "2025-11-21T18:35:59.697177"
-    },
-    "./Ollama Model Cheat Sheet (Local LLMs).md": {
-      "hash": "sha256:b1ff78b395a651732686aeaf928d7de1f6df4acf669fee9237da0a6d83f8f8b5",
-      "category": "Models",
-      "summary": "Cheat sheet listing and comparing Ollama LLMs for local coding tasks with performance metrics.",
-      "summary_approved": true,
-      "title": "Ollama Model Cheat Sheet (Local LLMs)",
-      "last_processed": "2025-11-22T01:11:31.562203",
-      "file_mtime": "2025-11-22T01:04:42.248758"
-    },
-    "./Ollama Model Cheat Sheet (Local LLMs) pdf version.pdf": {
-      "hash": "sha256:92b7e2944a6e7ece64fec4924aad5640a7912270ead3bafad3b56cd8f130ac2e",
-      "category": "Guides",
-      "summary": "The document provides an overview of setting up and using Ollama for local Large Language Models (LLMs), including installation instructions and system requirements.",
-      "summary_approved": true,
-      "title": "Ollama Model Cheat Sheet (Local LLMs) pdf version",
-      "last_processed": "2025-11-22T01:11:31.562237",
-      "file_mtime": "2025-11-21T23:43:14.213875"
     },
     "./OLLAMA_GUIDE.md": {
       "hash": "sha256:fa205c39b047db191ac830eea0bde8a4435e37b0faf65f14d5da2be1efddd4e9",
@@ -491,23 +262,241 @@
       "last_processed": "2025-11-22T15:41:50.307011",
       "file_mtime": "2025-11-22T15:06:34.083045"
     },
+    "./Fix File upload OpenWebUI.png": {
+      "hash": "sha256:4a1576fe4ccd3a02485364d0b364feef169e304d81429570d30b0aae0873342c",
+      "category": "Guides",
+      "summary": "Provides instructions for installing chardet using Python 3.11's pip to ensure compatibility with the NSSM service.",
+      "summary_approved": true,
+      "title": "Fix File upload OpenWebUI",
+      "last_processed": "2025-11-24T17:15:59.145523",
+      "file_mtime": "2025-11-22T18:01:13",
+      "readable_version": "./md_outputs/Fix File upload OpenWebUI.txt"
+    },
+    "./DMS System - sample_run.txt": {
+      "hash": "sha256:ec2a200c009f6a682c4afd270dfd80fb145f492618fac09ae4201108de0ed76c",
+      "category": "Workflows",
+      "summary": "This document contains the command-line output and usage instructions for DMS System, an AI-driven document management tool that can scan, process images, generate summaries, review changes, apply modifications, initialize directories, and show status.",
+      "summary_approved": true,
+      "title": "DMS System - sample_run",
+      "last_processed": "2025-11-24T17:45:58.957991",
+      "file_mtime": "2025-11-20T07:51:27.647507"
+    },
+    "./Models for Python coding.docx": {
+      "hash": "sha256:2fe9ef5eb2501cf8d524af9625252676018b5019263df7978b2e7721305c8934",
+      "category": "Models",
+      "summary": "The document ranks various AI models for Python coding tasks based on code quality, debugging ability, and feature addition efficiency.",
+      "summary_approved": true,
+      "title": "Models for Python coding",
+      "last_processed": "2025-11-24T17:50:20.360912",
+      "file_mtime": "2025-11-21T18:35:59.697177",
+      "readable_version": "./md_outputs/Models for Python coding.md"
+    },
     "./MODELS_recommendations_by_claude.md": {
       "hash": "sha256:a1585a9c8065adda8befe97b0a50e199e60e445c90a0a7ad76458839b73d4b26",
       "category": "Models",
-      "summary": "The document provides model recommendations for optimization by removing specific models and suggesting alternatives. It categorizes models into coding, general chat, and specialized use cases while offering guidance on using them efficiently.",
+      "summary": "This document outlines the removal of less efficient models and recommends an optimized lineup of high-quality coding, chat, and specialized AI models for enhanced performance.",
       "summary_approved": true,
       "title": "MODELS_recommendations_by_claude",
-      "last_processed": "2025-11-22T15:41:50.307029",
+      "last_processed": "2025-11-24T17:50:20.360952",
       "file_mtime": "2025-11-22T15:03:33.061419"
     },
-    "./Models": {
+    "./Models - recommendation for programming.png": {
+      "hash": "sha256:850d5d4297c7daa88e1f584ced28b70f2ea02b0f9d446844e1521db66ac99b05",
+      "category": "Models",
+      "summary": "Document provides recommendations for programming models based on system configuration, emphasizing qwen2.5:14b for efficiency and codestral:22b for accuracy in complex tasks.",
+      "summary_approved": true,
+      "title": "Models - recommendation for programming",
+      "last_processed": "2025-11-24T17:51:34.816772",
+      "file_mtime": "2025-11-22T18:41:13.648649",
+      "readable_version": "./md_outputs/Models - recommendation for programming.txt"
+    },
+    "./Setting Up Real Image Manipulation on Your Local Server.pdf": {
+      "hash": "sha256:f9ba490eee11c5bd1c08fe604d677712ac46127ff3b4580bf3c0b19641080937",
+      "category": "Guides",
+      "summary": "This document provides instructions for setting up advanced image manipulation tools on Windows 11 using ComfyUI and the RTX 3060 GPU.",
+      "summary_approved": true,
+      "title": "Setting Up Real Image Manipulation on Your Local Server",
+      "last_processed": "2025-11-24T17:56:19.404752",
+      "file_mtime": "2025-11-16T23:09:46.588791",
+      "readable_version": "./md_outputs/Setting Up Real Image Manipulation on Your Local Server.md"
+    },
+    "./Ollama Download Commands for Recommended LLMs.pdf": {
+      "hash": "sha256:5ffe3eebb971f1cdeac71f7aced7c341b578280c7c651b8c85dd9beb432a34cb",
+      "category": "QuickRefs",
+      "summary": "This document provides ollama run commands for downloading recommended large language models (LLMs) categorized by their primary use cases such as programming tasks and general conversation.",
+      "summary_approved": true,
+      "title": "Ollama Download Commands for Recommended LLMs",
+      "last_processed": "2025-11-24T17:56:19.404826",
+      "file_mtime": "2025-11-10T00:11:20.229343",
+      "readable_version": "./md_outputs/Ollama Download Commands for Recommended LLMs.md"
+    },
+    "./LLM Infrastructure Cheat Sheet (Updated).pdf": {
+      "hash": "sha256:14cc6e1554b911c0530ea4a92429de3b5b07289ba5396f1e35973c90f463db62",
+      "category": "QuickRefs",
+      "summary": "This document provides an overview of 20 large language model (LLM) options available on the Ollama server, categorized by access method and primary strength.",
+      "summary_approved": true,
+      "title": "LLM Infrastructure Cheat Sheet (Updated)",
+      "last_processed": "2025-11-24T17:56:19.404845",
+      "file_mtime": "2025-11-12T01:24:03.659621",
+      "readable_version": "./md_outputs/LLM Infrastructure Cheat Sheet (Updated).md"
+    },
+    "./RTX 3060 Setup Guide - Complete AI Coding Workflow.pdf": {
+      "hash": "sha256:ec57cf0a75712d023f2fefcd7e923a2bb0b3e86c0a81830da3e18f6821aa51e7",
+      "category": "Guides",
+      "summary": "This document provides instructions for installing and setting up an RTX 3060 GPU with NVIDIA drivers on Windows 11, intended for AI coding workflows.",
+      "summary_approved": true,
+      "title": "RTX 3060 Setup Guide - Complete AI Coding Workflow",
+      "last_processed": "2025-11-24T17:56:19.404859",
+      "file_mtime": "2025-11-18T08:25:56.108167",
+      "readable_version": "./md_outputs/RTX 3060 Setup Guide - Complete AI Coding Workflow.md"
+    },
+    "./Managing Ollama Environment Variables in NSSM.pdf": {
+      "hash": "sha256:82d95e70e3aff685a24d1e7d5ac420fb763f44307626b7362ae49d9e5c5f242c",
+      "category": "Guides",
+      "summary": "This document provides instructions on how to manage Ollama environment variables through NSSM (Non-Sucking Service Manager) for Windows Services, focusing on setting the OLLAMA_KEEP_ALIVE variable.",
+      "summary_approved": true,
+      "title": "Managing Ollama Environment Variables in NSSM",
+      "last_processed": "2025-11-24T17:56:19.404871",
+      "file_mtime": "2025-11-22T17:13:09.264725",
+      "readable_version": "./md_outputs/Managing Ollama Environment Variables in NSSM.md"
+    },
+    "./Image Generation Options for Open WebUI.pdf": {
+      "hash": "sha256:14bf125afa91e2cf5780e1c8236afaaab6d3a9f521e8b54f513b5691480c4d39",
+      "category": "Guides",
+      "summary": "This document outlines image generation options for Open WebUI using Ollama models and Stable Diffusion integration, detailing capabilities and limitations of each approach.",
+      "summary_approved": true,
+      "title": "Image Generation Options for Open WebUI",
+      "last_processed": "2025-11-24T17:56:19.404884",
+      "file_mtime": "2025-11-16T19:04:31.774265",
+      "readable_version": "./md_outputs/Image Generation Options for Open WebUI.md"
+    },
+    "./AIChat CLI_ Capabilities and User Guide Summary.pdf": {
+      "hash": "sha256:b26eaf339d07393e6acc8a4a8db8fa09b92572a5b9d17e961804efe4e0541a47",
+      "category": "Guides",
+      "summary": "The document provides a detailed user guide for the AIChat CLI tool, outlining its three core interaction modes and key capabilities in code development and shell automation.",
+      "summary_approved": true,
+      "title": "AIChat CLI_ Capabilities and User Guide Summary",
+      "last_processed": "2025-11-24T17:56:19.404895",
+      "file_mtime": "2025-11-10T00:11:20.228661",
+      "readable_version": "./md_outputs/AIChat CLI_ Capabilities and User Guide Summary.md"
+    },
+    "./LLM Recommendations for Programming and Development.pdf": {
+      "hash": "sha256:04d1cdbfcf361d8a06ad8ff45b627ba7cee3ae2ab32299071edab1d921eb4779",
+      "category": "Guides",
+      "summary": "The document provides recommendations for Large Language Models suitable for programming and development tasks based on their capabilities in coding, reasoning, tools usage, agentic workflows, and vision.",
+      "summary_approved": true,
+      "title": "LLM Recommendations for Programming and Development",
+      "last_processed": "2025-11-24T17:56:19.404907",
+      "file_mtime": "2025-11-10T00:11:20.229064",
+      "readable_version": "./md_outputs/LLM Recommendations for Programming and Development.md"
+    },
+    "./Rtx3060 Supplemental Improvements.pdf": {
+      "hash": "sha256:c21729399953589884770d51e0c79a89a217518b45e396bad3b85adf3e5c0b61",
+      "category": "Guides",
+      "summary": "This document provides a streamlined setup guide and tips for running AI coding models on an RTX 3060 GPU with Ollama and Continue CLI, emphasizing compatibility and performance considerations.",
+      "summary_approved": true,
+      "title": "Rtx3060 Supplemental Improvements",
+      "last_processed": "2025-11-24T17:56:19.404918",
+      "file_mtime": "2025-11-18T08:32:49.109219",
+      "readable_version": "./md_outputs/Rtx3060 Supplemental Improvements.md"
+    },
+    "./LLM Infrastructure Cheat Sheet_old.pdf": {
+      "hash": "sha256:aabfcb7a6ce319541e74320e2f20d7d7588f42c9a2a0077d5d1e64737360b302",
+      "category": "QuickRefs",
+      "summary": "This document provides an overview of the 15 large language models available on Ollama server, detailing their performance characteristics and use cases based on access method (Cloud or Local).",
+      "summary_approved": true,
+      "title": "LLM Infrastructure Cheat Sheet_old",
+      "last_processed": "2025-11-24T17:56:19.404935",
+      "file_mtime": "2025-11-11T02:07:29.296672",
+      "readable_version": "./md_outputs/LLM Infrastructure Cheat Sheet_old.md"
+    },
+    "./Open WebUI Installation Guide for Windows 11.pdf": {
+      "hash": "sha256:7540c26a3429540e750f2ca96cf6dc2ecb315acab9444ea77ed7e6d4cd1163fd",
+      "category": "Guides",
+      "summary": "This guide provides step-by-step instructions for installing Python 3.11 alongside an existing version and setting up Open WebUI on Windows 11 with remote access via Cloudflare Tunnel.",
+      "summary_approved": true,
+      "title": "Open WebUI Installation Guide for Windows 11",
+      "last_processed": "2025-11-24T17:56:19.404947",
+      "file_mtime": "2025-11-16T18:53:00.302245",
+      "readable_version": "./md_outputs/Open WebUI Installation Guide for Windows 11.md"
+    },
+    "./Open WebUI Management Guide.pdf": {
+      "hash": "sha256:48b93f0e708f7210ce98270f435ec182060b12a9b2841cfbb0befad0e78b9a48",
+      "category": "Guides",
+      "summary": "This document provides instructions for managing the Open WebUI service, including installation details, management commands, and troubleshooting tips.",
+      "summary_approved": true,
+      "title": "Open WebUI Management Guide",
+      "last_processed": "2025-11-24T17:56:19.404958",
+      "file_mtime": "2025-11-16T18:51:08.182925",
+      "readable_version": "./md_outputs/Open WebUI Management Guide.md"
+    },
+    "./Ollama Model Cheat Sheet (Local LLMs) pdf version.pdf": {
+      "hash": "sha256:92b7e2944a6e7ece64fec4924aad5640a7912270ead3bafad3b56cd8f130ac2e",
+      "category": "QuickRefs",
+      "summary": "This document provides a cheat sheet for local Large Language Models (LLMs) with details on model sizes, VRAM requirements, context windows, speed, and primary uses, aiding in selection based on specific needs.",
+      "summary_approved": true,
+      "title": "Ollama Model Cheat Sheet (Local LLMs) pdf version",
+      "last_processed": "2025-11-24T17:56:19.404969",
+      "file_mtime": "2025-11-21T23:43:14.213875",
+      "readable_version": "./md_outputs/Ollama Model Cheat Sheet (Local LLMs) pdf version.md"
+    },
+    "./Prep for 3060 - in the mean time as well.docx": {
+      "hash": "sha256:457563449e2ef0363c83849d155318690f0d577f73a57c9ddf83e9154db15891",
+      "category": "Guides",
+      "summary": "Document outlines pre-existing large language models on an Ollama server and recommends models suitable for a GT 1030 GPU until a RTX 3060 upgrade.",
+      "summary_approved": true,
+      "title": "Prep for 3060 - in the mean time as well",
+      "last_processed": "2025-11-24T17:57:30.660803",
+      "file_mtime": "2025-11-18T22:42:20.010381",
+      "readable_version": "./md_outputs/Prep for 3060 - in the mean time as well.md"
+    },
+    "./Models.txt": {
       "hash": "sha256:213446677619762d8dc5c2d1aa136f87d4a01404687b530ce08312f26b6e8413",
       "category": "Models",
-      "summary": "The document titled 'Models' contains binary data, likely representing machine learning models or statistical algorithms for predictive analysis and decision-making.",
+      "summary": "A list of AI model names, IDs, sizes, and modification times, providing an overview of available models in a repository or system.",
       "summary_approved": true,
       "title": "Models",
-      "last_processed": "2025-11-22T15:41:50.307042",
+      "last_processed": "2025-11-24T18:30:27.756626",
       "file_mtime": "2025-11-22T12:27:15.464196"
+    },
+    "./Models - inline coding.jpeg": {
+      "hash": "sha256:15c3b08105dc9b6c1e1d252b8ff83b4d5555e8ba358e4ca8bcd75efc5674bc7d",
+      "category": "Models",
+      "summary": "The document lists recommended models for inline coding and provides an installation example using qwen2.5-coder.",
+      "summary_approved": true,
+      "title": "Models - inline coding",
+      "last_processed": "2025-11-24T18:30:27.756697",
+      "file_mtime": "2025-11-19T11:42:56.339209",
+      "readable_version": "./md_outputs/Models - inline coding.txt"
+    },
+    "./Models - fast autocomplete.jpeg": {
+      "hash": "sha256:e2b2ff6cec8523bbd5fd4f3997b30b9f2cbd03fc1cd43fdd86d9495aab5779df",
+      "category": "Models",
+      "summary": "Document lists model configurations for fast autocomplete and heavy reasoning tasks with example setups.",
+      "summary_approved": true,
+      "title": "Models - fast autocomplete",
+      "last_processed": "2025-11-24T18:30:27.756718",
+      "file_mtime": "2025-11-19T11:42:56.340456",
+      "readable_version": "./md_outputs/Models - fast autocomplete.txt"
+    },
+    "./Ollama CLI Help.txt": {
+      "hash": "sha256:b87f997e8a821f4f919028e89404fecfa3c0d251a6ea38d5625eb1e19d852beb",
+      "category": "QuickRefs",
+      "summary": "This document provides usage instructions and available commands for the Ollama CLI tool, which manages large language models including creation, running, stopping, pulling, pushing, listing, copying, removing, signing in/out, and displaying help.",
+      "summary_approved": true,
+      "title": "Ollama CLI Help",
+      "last_processed": "2025-11-24T18:30:27.756734",
+      "file_mtime": "2025-11-19T03:03:28.015349"
+    },
+    "./Models - local vs cloud.jpeg": {
+      "hash": "sha256:9de09295783cecbb945eec528ecb4240c9b0f3d43be4886c9920d294e12af505",
+      "category": "Guides",
+      "summary": "The document compares the performance of local and cloud-based AI models like ChatGPT and Ollama, offering speed optimization tips for cloud use and introducing model flexibility via OpenAPI.",
+      "summary_approved": true,
+      "title": "Models - local vs cloud",
+      "last_processed": "2025-11-24T18:30:27.756748",
+      "file_mtime": "2025-11-19T11:42:56.342038",
+      "readable_version": "./md_outputs/Models - local vs cloud.txt"
     }
   }
 }

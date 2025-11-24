@@ -1,18 +1,11 @@
 {
-  "timestamp": "2025-11-22T16:23:53.978844",
-  "new_files": [
-    {
-      "path": "./sample_run2.txt",
-      "hash": "sha256:ec2a200c009f6a682c4afd270dfd80fb145f492618fac09ae4201108de0ed76c",
-      "size": 16812,
-      "file_mtime": "2025-11-22T16:21:11.723013"
-    }
-  ],
+  "timestamp": "2025-11-24T18:30:53.391718",
+  "new_files": [],
   "changed_files": [
     {
       "path": "./index.html",
       "old_hash": "",
-      "new_hash": "sha256:e97e0e4c609e245a5922ecb181e5570ddd115acff110a45d4d671ecdf265c89e"
+      "new_hash": "sha256:39cdd2292763ae055f36e7ca17869c8c8711b6695dde5fc91d4bf415448ddad4"
     }
   ],
   "missing_files": []
