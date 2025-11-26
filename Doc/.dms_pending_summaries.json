@@ -1,0 +1,69 @@
+{
+  "timestamp": "2025-11-26T21:57:50.797053",
+  "summaries": [
+    {
+      "file": {
+        "path": "./Conversation with Gemini - Sequence of memory events during ComfyUI run.docx",
+        "hash": "sha256:ec7aeecbc445b67ba53f66ea6a582410c5e12e6f09f7ab47d1350985946f3c50",
+        "size": 27828,
+        "readable_version": "./md_outputs/Conversation with Gemini - Sequence of memory events during ComfyUI run.md"
+      },
+      "summary": "This document outlines the sequence of memory events during ComfyUI execution for image generation, detailing data flow from disk to VRAM in both cold start and subsequent iterations.",
+      "category": "Guides",
+      "is_new_category": false,
+      "title": "Conversation with Gemini - Sequence of memory events during ComfyUI run",
+      "timestamp": "2025-11-26T21:57:38.907422"
+    },
+    {
+      "file": {
+        "path": "./Conversation with Gemini - Sequence of memory events during ComfyUI run (PDF).pdf",
+        "hash": "sha256:c9440b3c5444767acf0198f5a82fb5df639d8c00784641cfe1e5fc0057dd6881",
+        "size": 243772,
+        "readable_version": "./md_outputs/Conversation with Gemini - Sequence of memory events during ComfyUI run (PDF).md"
+      },
+      "summary": "This document outlines the sequence of memory events during ComfyUI execution on Windows 11, detailing data flow from disk to VRAM for image generation.",
+      "category": "Workflows",
+      "is_new_category": false,
+      "title": "Conversation with Gemini - Sequence of memory events during ComfyUI run (PDF)",
+      "timestamp": "2025-11-26T21:57:41.816694"
+    },
+    {
+      "file": {
+        "path": "./Conversation with Gemini - ComfyUI Models (PDF).pdf",
+        "hash": "sha256:a1f664f07c725ee13a6001b372c451286c32d19219bbae82e6aca90c93937c2f",
+        "size": 168999,
+        "readable_version": "./md_outputs/Conversation with Gemini - ComfyUI Models (PDF).md"
+      },
+      "summary": "This document provides model recommendations for ComfyUI users aiming to perform background/person removal, photo restoration, and other creative tasks efficiently on an RTX 3060 with limited VRAM.",
+      "category": "Guides",
+      "is_new_category": false,
+      "title": "Conversation with Gemini - ComfyUI Models (PDF)",
+      "timestamp": "2025-11-26T21:57:44.949697"
+    },
+    {
+      "file": {
+        "path": "./Conversation with Gemini - ComfyUI Models.docx",
+        "hash": "sha256:1d7e69a2184c7772f8f79a378457b46711c51b435d40924500a54c80d1eb5adb",
+        "size": 21781,
+        "readable_version": "./md_outputs/Conversation with Gemini - ComfyUI Models.md"
+      },
+      "summary": "This document discusses model recommendations for ComfyUI users aiming to perform background removal, person removal, and photo restoration on an RTX 3060 with 12GB VRAM.",
+      "category": "Guides",
+      "is_new_category": false,
+      "title": "Conversation with Gemini - ComfyUI Models",
+      "timestamp": "2025-11-26T21:57:47.867231"
+    },
+    {
+      "file": {
+        "path": "./index.html",
+        "hash": "",
+        "size": 0
+      },
+      "summary": "This document is an HTML index page styled with custom CSS for project documentation, featuring a sidebar with search and sorting controls.",
+      "category": "Guides",
+      "is_new_category": false,
+      "title": "index",
+      "timestamp": "2025-11-26T21:57:50.796841"
+    }
+  ]
+}
