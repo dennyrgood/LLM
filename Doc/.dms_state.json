@@ -1,7 +1,7 @@
 {
   "metadata": {
     "last_scan": "2025-11-20T07:48:20.618243",
-    "last_apply": "2025-11-26T23:14:34.814249",
+    "last_apply": "2025-11-27T01:20:27.369353",
     "migrated_from_embedded": true,
     "migration_date": "2025-11-20T11:45:24.485598"
   },
@@ -180,11 +180,11 @@
     "./index.html": {
       "hash": "",
       "category": "Guides",
-      "summary": "This HTML document serves as an index page for project documentation, featuring styled elements like headers, sidebar, and file listings with sorting controls.",
+      "summary": "This HTML document contains the index page for project documentation with styling and layout for navigation elements including a sidebar, search functionality, and file list.",
       "summary_approved": true,
       "title": "index",
-      "last_processed": "2025-11-26T23:14:34.814217",
-      "file_mtime": "2025-11-26T21:58:15.457149"
+      "last_processed": "2025-11-27T01:20:27.369319",
+      "file_mtime": "2025-11-26T23:14:34.865324"
     },
     "./ollama show model batch file.txt": {
       "hash": "sha256:c8e985fd58669b089bbe8387ec47c4eaffb71ff13a6fa710118ddcb8a11f4b78",
@@ -626,6 +626,16 @@
       "last_processed": "2025-11-26T23:14:34.814158",
       "file_mtime": "2025-11-26T18:29:24.202070",
       "readable_version": "./md_outputs/RTX 3060 Image Manipulation Setup Guide - Troubleshooting Log & Lessons Learned - (Win11 - 2025) \u2013 Complete Log - (PDF).md"
+    },
+    "./RTX 3060 Image Manipulation - Implementation Plan.pdf": {
+      "hash": "sha256:874ecc99ccee089a10f8b25bb4358bfe29f7029f6a5ce41da39caa24f9bdce75",
+      "category": "Workflows",
+      "summary": "This document outlines an implementation plan for optimizing RTX 3060-based image manipulation tasks on Windows 11, focusing on speed improvements with SDXL Turbo model.",
+      "summary_approved": true,
+      "title": "RTX 3060 Image Manipulation - Implementation Plan",
+      "last_processed": "2025-11-27T01:20:27.369276",
+      "file_mtime": "2025-11-27T00:08:09.345613",
+      "readable_version": "./md_outputs/RTX 3060 Image Manipulation - Implementation Plan.md"
     }
   }
 }

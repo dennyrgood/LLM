@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-11-27T01:20:22.438602",
+  "summaries": [
+    {
+      "file": {
+        "path": "./RTX 3060 Image Manipulation - Implementation Plan.pdf",
+        "hash": "sha256:874ecc99ccee089a10f8b25bb4358bfe29f7029f6a5ce41da39caa24f9bdce75",
+        "size": 152849,
+        "readable_version": "./md_outputs/RTX 3060 Image Manipulation - Implementation Plan.md"
+      },
+      "summary": "This document outlines an implementation plan for optimizing RTX 3060-based image manipulation tasks on Windows 11, focusing on speed improvements with SDXL Turbo model.",
+      "category": "Workflows",
+      "is_new_category": false,
+      "title": "RTX 3060 Image Manipulation - Implementation Plan",
+      "timestamp": "2025-11-27T01:20:19.182049"
+    },
+    {
+      "file": {
+        "path": "./index.html",
+        "hash": "",
+        "size": 0
+      },
+      "summary": "This HTML document contains the index page for project documentation with styling and layout for navigation elements including a sidebar, search functionality, and file list.",
+      "category": "Guides",
+      "is_new_category": false,
+      "title": "index",
+      "timestamp": "2025-11-27T01:20:22.438553"
+    }
+  ]
+}
